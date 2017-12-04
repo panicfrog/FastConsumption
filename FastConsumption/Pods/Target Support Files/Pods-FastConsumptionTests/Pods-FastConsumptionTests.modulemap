@@ -1,0 +1,6 @@
+framework module Pods_FastConsumptionTests {
+  umbrella header "Pods-FastConsumptionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

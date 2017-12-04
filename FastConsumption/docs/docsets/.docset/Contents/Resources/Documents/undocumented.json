@@ -1,0 +1,453 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 19,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 21,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 24,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 41,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 46,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 50,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 54,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 15,
+      "symbol": "R.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 100,
+      "symbol": "_R",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 101,
+      "symbol": "_R.nib",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 105,
+      "symbol": "_R.storyboard",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 106,
+      "symbol": "_R.storyboard.launchScreen",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 109,
+      "symbol": "_R.storyboard.launchScreen.bundle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 110,
+      "symbol": "_R.storyboard.launchScreen.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 115,
+      "symbol": "_R.storyboard.main",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 118,
+      "symbol": "_R.storyboard.main.bundle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 119,
+      "symbol": "_R.storyboard.main.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Home/Controllers/ViewController.swift",
+      "line": 12,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Home/Controllers/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 12,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 13,
+      "symbol": "Font",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 14,
+      "symbol": "File",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 15,
+      "symbol": "Image",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 16,
+      "symbol": "Nib",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 17,
+      "symbol": "ResuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 18,
+      "symbol": "Segue",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 19,
+      "symbol": "Storyboard",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 27,
+      "symbol": "LogInfo(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 31,
+      "symbol": "LogWarm(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 35,
+      "symbol": "LogError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 39,
+      "symbol": "LogVerbose(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 15,
+      "symbol": "ScopedMutex.trySync(execute:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 25,
+      "symbol": "RawMutex.unbalancedLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 26,
+      "symbol": "RawMutex.unbalancedTryLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 27,
+      "symbol": "RawMutex.unbalancedUnlock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 54,
+      "symbol": "RawMutex.trySync(execute:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 66,
+      "symbol": "PThreadMutex.PThreadMutexType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 67,
+      "symbol": "PThreadMutex.PThreadMutexType.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 68,
+      "symbol": "PThreadMutex.PThreadMutexType.recursive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 91,
+      "symbol": "PThreadMutex.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 95,
+      "symbol": "PThreadMutex.unbalancedLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 99,
+      "symbol": "PThreadMutex.unbalancedTryLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 103,
+      "symbol": "PThreadMutex.unbalancedUnlock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 114,
+      "symbol": "UnfairLock.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 119,
+      "symbol": "UnfairLock.unbalancedLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 123,
+      "symbol": "UnfairLock.unbalancedTryLock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/MutexLock.swift",
+      "line": 127,
+      "symbol": "UnfairLock.unbalancedUnlock()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 11,
+      "symbol": "IsPad",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 12,
+      "symbol": "IsIphone",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 13,
+      "symbol": "IsSimulator",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 15,
+      "symbol": "DiskSpace",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 16,
+      "symbol": "DiskFreeSpace",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 17,
+      "symbol": "DiskUsedSpace",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 19,
+      "symbol": "MemoryTotal",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 20,
+      "symbol": "MemoryUsed",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 22,
+      "symbol": "ScreenHeight",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 23,
+      "symbol": "ScreenWidth",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 24,
+      "symbol": "SCreenScale",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 26,
+      "symbol": "IOS8OrLater",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 30,
+      "symbol": "IOS9OrLater",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 34,
+      "symbol": "IOS10OrLater",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 38,
+      "symbol": "IOS11OrLater",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 184,
+      "symbol": "CGRect.cutApart(proportion:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption"
+}

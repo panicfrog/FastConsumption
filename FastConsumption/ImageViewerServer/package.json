@@ -1,0 +1,28 @@
+{
+  "name": "imageviewerserver",
+  "version": "1.0.0",
+  "description": "a node servce for xcode project that view the resource of the images at Assert document",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no respository yet"
+  },
+  "keywords": [
+    "xcode",
+    "node",
+    "image",
+    "viewser",
+    "server"
+  ],
+  "author": "yeyongping-D8Ge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "walk": "^2.3.9"
+  }
+}
