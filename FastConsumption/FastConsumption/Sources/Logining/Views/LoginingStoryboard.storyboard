@@ -180,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eT-eD-i06" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-71.200000000000003" y="32.833583208395808"/>
+            <point key="canvasLocation" x="-74" y="45"/>
         </scene>
         <!--登录-->
         <scene sceneID="vbX-FL-95N">
@@ -416,7 +416,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yti-5F-yFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1285.5999999999999" y="55.322338830584712"/>
+            <point key="canvasLocation" x="1289" y="45"/>
         </scene>
         <!--设置新密码-->
         <scene sceneID="p8b-km-56x">
@@ -488,7 +488,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNN-Vl-2mS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1953" y="55"/>
+            <point key="canvasLocation" x="1951" y="45"/>
         </scene>
     </scenes>
 </document>
