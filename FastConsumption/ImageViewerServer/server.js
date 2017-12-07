@@ -11,19 +11,8 @@ hbs.registerPartials(__dirname + '/views/partials')
 
 app.get('/',(req,res) => {
 
-    var asserts = []
-
-    travel(__dirname+'/../FastConsumption/Assets/Assets.xcassets',(pathname)=> {
-        let component = pathname.split(".")[1];
-        if ( component && component.length < 6 && component > 2) {
-            console.log(component)
-        }
-        if (component === 'png' || component === 'jpg') {
-            asserts.push(pathname)
-        }
-    });
-
-    res.render('index',{
+    console.log('这个不错')
+    res.render('index', {
         title: 'Assert Resource',
         copyRight: `Create By Ye-yongping  ${new Date().getFullYear()}`
     })

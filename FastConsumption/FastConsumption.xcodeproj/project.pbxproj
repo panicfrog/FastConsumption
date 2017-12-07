@@ -20,6 +20,11 @@
 		8FB2B4731FD4EFAC00A290AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2B4701FD4EFAC00A290AF /* Main.storyboard */; };
 		8FB2B4791FD4F18300A290AF /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2B4781FD4F18300A290AF /* R.generated.swift */; };
 		8FB2B47E1FD4F55F00A290AF /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2B47D1FD4F55F00A290AF /* Support.swift */; };
+		8FD2FC341FD8E30F00442E80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC331FD8E30F00442E80 /* LoginViewController.swift */; };
+		8FD2FC361FD8E36A00442E80 /* LoginingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2FC351FD8E36A00442E80 /* LoginingStoryboard.storyboard */; };
+		8FD2FC381FD8F3B100442E80 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC371FD8F3B100442E80 /* RegisterViewController.swift */; };
+		8FD2FC3A1FD8F3C300442E80 /* RetrievePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC391FD8F3C300442E80 /* RetrievePasswordViewController.swift */; };
+		8FD2FC3C1FD8F3D400442E80 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */; };
 		D604DF000D561F11E9417CE9 /* Pods_FastConsumption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31716A9D1198CFA1E35F0556 /* Pods_FastConsumption.framework */; };
 		D66B6616087DA5DE5F8DBDC5 /* Pods_FastConsumptionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8820A03E32121F26D26AB0 /* Pods_FastConsumptionUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +70,11 @@
 		8FB2B4711FD4EFAC00A290AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FB2B4781FD4F18300A290AF /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		8FB2B47D1FD4F55F00A290AF /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		8FD2FC331FD8E30F00442E80 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8FD2FC351FD8E36A00442E80 /* LoginingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginingStoryboard.storyboard; sourceTree = "<group>"; };
+		8FD2FC371FD8F3B100442E80 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8FD2FC391FD8F3C300442E80 /* RetrievePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePasswordViewController.swift; sourceTree = "<group>"; };
+		8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		B53B604372CA33EE076343D0 /* Pods-FastConsumption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumption/Pods-FastConsumption.debug.xcconfig"; sourceTree = "<group>"; };
 		C44C6ECB60A10120F559429C /* Pods_FastConsumptionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastConsumptionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB92F612C8CA809C6CEB5F /* Pods-FastConsumptionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumptionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumptionUITests/Pods-FastConsumptionUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +223,7 @@
 		8FB2B46D1FD4EFAC00A290AF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8FD2FC2F1FD8E2BE00442E80 /* Logining */,
 				8FB2B47C1FD4F4F300A290AF /* Static */,
 				8FB2B46E1FD4EFAC00A290AF /* Home */,
 			);
@@ -258,6 +269,42 @@
 				8FB2B47D1FD4F55F00A290AF /* Support.swift */,
 			);
 			path = Static;
+			sourceTree = "<group>";
+		};
+		8FD2FC2F1FD8E2BE00442E80 /* Logining */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2FC321FD8E2ED00442E80 /* Controllers */,
+				8FD2FC301FD8E2ED00442E80 /* ViewModels */,
+				8FD2FC311FD8E2ED00442E80 /* Views */,
+			);
+			path = Logining;
+			sourceTree = "<group>";
+		};
+		8FD2FC301FD8E2ED00442E80 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8FD2FC311FD8E2ED00442E80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2FC351FD8E36A00442E80 /* LoginingStoryboard.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FD2FC321FD8E2ED00442E80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2FC331FD8E30F00442E80 /* LoginViewController.swift */,
+				8FD2FC371FD8F3B100442E80 /* RegisterViewController.swift */,
+				8FD2FC391FD8F3C300442E80 /* RetrievePasswordViewController.swift */,
+				8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD2FC361FD8E36A00442E80 /* LoginingStoryboard.storyboard in Resources */,
 				8FB2B43E1FD4DE9E00A290AF /* LaunchScreen.storyboard in Resources */,
 				8FB2B43B1FD4DE9E00A290AF /* Assets.xcassets in Resources */,
 				8FB2B4731FD4EFAC00A290AF /* Main.storyboard in Resources */,
@@ -621,13 +669,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD2FC381FD8F3B100442E80 /* RegisterViewController.swift in Sources */,
 				8FB2B47E1FD4F55F00A290AF /* Support.swift in Sources */,
 				8FB2B4721FD4EFAC00A290AF /* ViewController.swift in Sources */,
+				8FD2FC3C1FD8F3D400442E80 /* ResetPasswordViewController.swift in Sources */,
 				8FB2B4691FD4EDA800A290AF /* UIExtensions.swift in Sources */,
 				8FB2B46A1FD4EDA800A290AF /* GCD.swift in Sources */,
 				8FB2B46B1FD4EDA800A290AF /* MutexLock.swift in Sources */,
+				8FD2FC341FD8E30F00442E80 /* LoginViewController.swift in Sources */,
 				8FB2B4341FD4DE9E00A290AF /* AppDelegate.swift in Sources */,
 				8FB2B4791FD4F18300A290AF /* R.generated.swift in Sources */,
+				8FD2FC3A1FD8F3C300442E80 /* RetrievePasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,12 +847,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E394H7ER8M;
 				INFOPLIST_FILE = FastConsumption/Assets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qhfax.www.FastConsumption;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -810,12 +864,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E394H7ER8M;
 				INFOPLIST_FILE = FastConsumption/Assets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qhfax.www.FastConsumption;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

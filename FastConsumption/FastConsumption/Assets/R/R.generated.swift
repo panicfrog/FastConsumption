@@ -59,16 +59,23 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 3 storyboards.
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
+    /// Storyboard `LoginingStoryboard`.
+    static let loginingStoryboard = _R.storyboard.loginingStoryboard()
     /// Storyboard `Main`.
     static let main = _R.storyboard.main()
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
+    }
+    
+    /// `UIStoryboard(name: "LoginingStoryboard", bundle: ...)`
+    static func loginingStoryboard(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.loginingStoryboard)
     }
     
     /// `UIStoryboard(name: "Main", bundle: ...)`
@@ -86,7 +93,7 @@ struct R: Rswift.Validatable {
   
   fileprivate struct intern: Rswift.Validatable {
     fileprivate static func validate() throws {
-      // There are no resources to validate
+      try _R.validate()
     }
     
     fileprivate init() {}
@@ -97,17 +104,59 @@ struct R: Rswift.Validatable {
   fileprivate init() {}
 }
 
-struct _R {
+struct _R: Rswift.Validatable {
+  static func validate() throws {
+    try storyboard.validate()
+  }
+  
   struct nib {
     fileprivate init() {}
   }
   
-  struct storyboard {
+  struct storyboard: Rswift.Validatable {
+    static func validate() throws {
+      try loginingStoryboard.validate()
+    }
+    
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
+      
+      fileprivate init() {}
+    }
+    
+    struct loginingStoryboard: Rswift.StoryboardResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let loginViewControllerID = StoryboardViewControllerResource<LoginViewController>(identifier: "LoginViewControllerID")
+      let name = "LoginingStoryboard"
+      let registerViewControllerID = StoryboardViewControllerResource<RegisterViewController>(identifier: "RegisterViewControllerID")
+      let resetPasswordViewControllerID = StoryboardViewControllerResource<ResetPasswordViewController>(identifier: "ResetPasswordViewControllerID")
+      let retrievePasswordViewController = StoryboardViewControllerResource<RetrievePasswordViewController>(identifier: "RetrievePasswordViewController")
+      
+      func loginViewControllerID(_: Void = ()) -> LoginViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: loginViewControllerID)
+      }
+      
+      func registerViewControllerID(_: Void = ()) -> RegisterViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: registerViewControllerID)
+      }
+      
+      func resetPasswordViewControllerID(_: Void = ()) -> ResetPasswordViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: resetPasswordViewControllerID)
+      }
+      
+      func retrievePasswordViewController(_: Void = ()) -> RetrievePasswordViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: retrievePasswordViewController)
+      }
+      
+      static func validate() throws {
+        if _R.storyboard.loginingStoryboard().registerViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'registerViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'RegisterViewController'.") }
+        if _R.storyboard.loginingStoryboard().resetPasswordViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'resetPasswordViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'ResetPasswordViewController'.") }
+        if _R.storyboard.loginingStoryboard().loginViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'loginViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'LoginViewController'.") }
+        if _R.storyboard.loginingStoryboard().retrievePasswordViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'retrievePasswordViewController' could not be loaded from storyboard 'LoginingStoryboard' as 'RetrievePasswordViewController'.") }
+      }
       
       fileprivate init() {}
     }
