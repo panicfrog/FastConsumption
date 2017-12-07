@@ -8,14 +8,34 @@
 
 import UIKit
 import Reusable
+import RxSwift
+import RxCocoa
 
 class RetrievePasswordViewController: UIViewController, StoryboardSceneBased {
     static let sceneStoryboard = Storyboard.loginingStoryboard()
     
+    let bag = DisposeBag()
+    
+    @IBOutlet weak var phoneTextfield: UITextField!
+    @IBOutlet weak var validCodeTextfield: UITextField!
+    
+    @IBOutlet weak var nextStepButton: UIButton!
+    @IBOutlet weak var getValidCodeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
         // Do any additional setup after loading the view.
+    }
+    
+    func setupUI()  {
+        nextStepButton.rx.tap
+            .subscribe(onNext: {
+                [unowned self] in
+                self.dismiss(animated: true, completion: nil)
+        })
+        .disposed(by: bag)
+        
     }
 
     /*

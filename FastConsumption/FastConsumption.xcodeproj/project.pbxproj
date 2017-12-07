@@ -25,6 +25,11 @@
 		8FD2FC381FD8F3B100442E80 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC371FD8F3B100442E80 /* RegisterViewController.swift */; };
 		8FD2FC3A1FD8F3C300442E80 /* RetrievePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC391FD8F3C300442E80 /* RetrievePasswordViewController.swift */; };
 		8FD2FC3C1FD8F3D400442E80 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */; };
+		8FD2FC3E1FD9123B00442E80 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC3D1FD9123B00442E80 /* LoginViewModel.swift */; };
+		8FD2FC401FD9124600442E80 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC3F1FD9124600442E80 /* RegisterViewModel.swift */; };
+		8FD2FC421FD9125500442E80 /* RetrievePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC411FD9125500442E80 /* RetrievePasswordViewModel.swift */; };
+		8FD2FC441FD9126100442E80 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC431FD9126100442E80 /* ResetPasswordViewModel.swift */; };
+		8FD2FC481FD91EB700442E80 /* ProjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2FC471FD91EB700442E80 /* ProjectUtils.swift */; };
 		D604DF000D561F11E9417CE9 /* Pods_FastConsumption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31716A9D1198CFA1E35F0556 /* Pods_FastConsumption.framework */; };
 		D66B6616087DA5DE5F8DBDC5 /* Pods_FastConsumptionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8820A03E32121F26D26AB0 /* Pods_FastConsumptionUITests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +80,11 @@
 		8FD2FC371FD8F3B100442E80 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8FD2FC391FD8F3C300442E80 /* RetrievePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePasswordViewController.swift; sourceTree = "<group>"; };
 		8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		8FD2FC3D1FD9123B00442E80 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8FD2FC3F1FD9124600442E80 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		8FD2FC411FD9125500442E80 /* RetrievePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePasswordViewModel.swift; sourceTree = "<group>"; };
+		8FD2FC431FD9126100442E80 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		8FD2FC471FD91EB700442E80 /* ProjectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUtils.swift; sourceTree = "<group>"; };
 		B53B604372CA33EE076343D0 /* Pods-FastConsumption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumption/Pods-FastConsumption.debug.xcconfig"; sourceTree = "<group>"; };
 		C44C6ECB60A10120F559429C /* Pods_FastConsumptionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastConsumptionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB92F612C8CA809C6CEB5F /* Pods-FastConsumptionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumptionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumptionUITests/Pods-FastConsumptionUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +233,7 @@
 		8FB2B46D1FD4EFAC00A290AF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8FD2FC461FD91E9E00442E80 /* ProjectUtils */,
 				8FD2FC2F1FD8E2BE00442E80 /* Logining */,
 				8FB2B47C1FD4F4F300A290AF /* Static */,
 				8FB2B46E1FD4EFAC00A290AF /* Home */,
@@ -266,6 +277,7 @@
 		8FB2B47C1FD4F4F300A290AF /* Static */ = {
 			isa = PBXGroup;
 			children = (
+				8FD2FC451FD91E8F00442E80 /* ProjectUtils */,
 				8FB2B47D1FD4F55F00A290AF /* Support.swift */,
 			);
 			path = Static;
@@ -284,6 +296,10 @@
 		8FD2FC301FD8E2ED00442E80 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8FD2FC3D1FD9123B00442E80 /* LoginViewModel.swift */,
+				8FD2FC3F1FD9124600442E80 /* RegisterViewModel.swift */,
+				8FD2FC411FD9125500442E80 /* RetrievePasswordViewModel.swift */,
+				8FD2FC431FD9126100442E80 /* ResetPasswordViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -305,6 +321,22 @@
 				8FD2FC3B1FD8F3D400442E80 /* ResetPasswordViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8FD2FC451FD91E8F00442E80 /* ProjectUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProjectUtils;
+			path = FastConsumption/Sources/ProjectUtils;
+			sourceTree = SOURCE_ROOT;
+		};
+		8FD2FC461FD91E9E00442E80 /* ProjectUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2FC471FD91EB700442E80 /* ProjectUtils.swift */,
+			);
+			path = ProjectUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -670,13 +702,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FD2FC381FD8F3B100442E80 /* RegisterViewController.swift in Sources */,
+				8FD2FC421FD9125500442E80 /* RetrievePasswordViewModel.swift in Sources */,
 				8FB2B47E1FD4F55F00A290AF /* Support.swift in Sources */,
 				8FB2B4721FD4EFAC00A290AF /* ViewController.swift in Sources */,
 				8FD2FC3C1FD8F3D400442E80 /* ResetPasswordViewController.swift in Sources */,
+				8FD2FC481FD91EB700442E80 /* ProjectUtils.swift in Sources */,
+				8FD2FC441FD9126100442E80 /* ResetPasswordViewModel.swift in Sources */,
 				8FB2B4691FD4EDA800A290AF /* UIExtensions.swift in Sources */,
 				8FB2B46A1FD4EDA800A290AF /* GCD.swift in Sources */,
 				8FB2B46B1FD4EDA800A290AF /* MutexLock.swift in Sources */,
 				8FD2FC341FD8E30F00442E80 /* LoginViewController.swift in Sources */,
+				8FD2FC401FD9124600442E80 /* RegisterViewModel.swift in Sources */,
+				8FD2FC3E1FD9123B00442E80 /* LoginViewModel.swift in Sources */,
 				8FB2B4341FD4DE9E00A290AF /* AppDelegate.swift in Sources */,
 				8FB2B4791FD4F18300A290AF /* R.generated.swift in Sources */,
 				8FD2FC3A1FD8F3C300442E80 /* RetrievePasswordViewController.swift in Sources */,

@@ -8,16 +8,30 @@
 
 import UIKit
 import Reusable
+import RxSwift
+import RxCocoa
 
 class ResetPasswordViewController: UIViewController, StoryboardSceneBased {
     static let sceneStoryboard = Storyboard.loginingStoryboard()
     
+    let bag = DisposeBag()
+    
+    @IBOutlet weak var newPasswordTextField: UITextField!
+    @IBOutlet weak var nextStepButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupUI()
     }
 
+    func setupUI()  {
+        nextStepButton.rx.tap
+            .subscribe(onNext: {[unowned self] in
+                self.dismiss(animated: true, completion: nil)
+            })
+        .disposed(by: bag)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -31,14 +31,70 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 1 images.
+  /// This `R.image` struct is generated, and contains static references to 9 images.
   struct image {
-    /// Image `side_bar_bg`.
-    static let side_bar_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "side_bar_bg")
+    /// Image `arrow_black`.
+    static let arrow_black = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_black")
+    /// Image `arrow_white`.
+    static let arrow_white = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_white")
+    /// Image `bg`.
+    static let bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "bg")
+    /// Image `logo`.
+    static let logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "logo")
+    /// Image `oval_icon`.
+    static let oval_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "oval_icon")
+    /// Image `password_icon`.
+    static let password_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "password_icon")
+    /// Image `phone_icon`.
+    static let phone_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "phone_icon")
+    /// Image `selected_icon`.
+    static let selected_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "selected_icon")
+    /// Image `valid_icon`.
+    static let valid_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "valid_icon")
     
-    /// `UIImage(named: "side_bar_bg", bundle: ..., traitCollection: ...)`
-    static func side_bar_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
-      return UIKit.UIImage(resource: R.image.side_bar_bg, compatibleWith: traitCollection)
+    /// `UIImage(named: "arrow_black", bundle: ..., traitCollection: ...)`
+    static func arrow_black(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.arrow_black, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "arrow_white", bundle: ..., traitCollection: ...)`
+    static func arrow_white(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.arrow_white, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "bg", bundle: ..., traitCollection: ...)`
+    static func bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "logo", bundle: ..., traitCollection: ...)`
+    static func logo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.logo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "oval_icon", bundle: ..., traitCollection: ...)`
+    static func oval_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.oval_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "password_icon", bundle: ..., traitCollection: ...)`
+    static func password_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.password_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "phone_icon", bundle: ..., traitCollection: ...)`
+    static func phone_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.phone_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "selected_icon", bundle: ..., traitCollection: ...)`
+    static func selected_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.selected_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "valid_icon", bundle: ..., traitCollection: ...)`
+    static func valid_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.valid_icon, compatibleWith: traitCollection)
     }
     
     fileprivate init() {}
@@ -129,22 +185,22 @@ struct _R: Rswift.Validatable {
     
     struct loginingStoryboard: Rswift.StoryboardResourceType, Rswift.Validatable {
       let bundle = R.hostingBundle
-      let loginViewControllerID = StoryboardViewControllerResource<LoginViewController>(identifier: "LoginViewControllerID")
+      let loginViewController = StoryboardViewControllerResource<LoginViewController>(identifier: "LoginViewController")
       let name = "LoginingStoryboard"
-      let registerViewControllerID = StoryboardViewControllerResource<RegisterViewController>(identifier: "RegisterViewControllerID")
-      let resetPasswordViewControllerID = StoryboardViewControllerResource<ResetPasswordViewController>(identifier: "ResetPasswordViewControllerID")
+      let registerViewController = StoryboardViewControllerResource<RegisterViewController>(identifier: "RegisterViewController")
+      let resetPasswordViewController = StoryboardViewControllerResource<ResetPasswordViewController>(identifier: "ResetPasswordViewController")
       let retrievePasswordViewController = StoryboardViewControllerResource<RetrievePasswordViewController>(identifier: "RetrievePasswordViewController")
       
-      func loginViewControllerID(_: Void = ()) -> LoginViewController? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: loginViewControllerID)
+      func loginViewController(_: Void = ()) -> LoginViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: loginViewController)
       }
       
-      func registerViewControllerID(_: Void = ()) -> RegisterViewController? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: registerViewControllerID)
+      func registerViewController(_: Void = ()) -> RegisterViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: registerViewController)
       }
       
-      func resetPasswordViewControllerID(_: Void = ()) -> ResetPasswordViewController? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: resetPasswordViewControllerID)
+      func resetPasswordViewController(_: Void = ()) -> ResetPasswordViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: resetPasswordViewController)
       }
       
       func retrievePasswordViewController(_: Void = ()) -> RetrievePasswordViewController? {
@@ -152,10 +208,17 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
-        if _R.storyboard.loginingStoryboard().registerViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'registerViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'RegisterViewController'.") }
-        if _R.storyboard.loginingStoryboard().resetPasswordViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'resetPasswordViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'ResetPasswordViewController'.") }
-        if _R.storyboard.loginingStoryboard().loginViewControllerID() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'loginViewControllerID' could not be loaded from storyboard 'LoginingStoryboard' as 'LoginViewController'.") }
+        if UIKit.UIImage(named: "phone_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'phone_icon' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "password_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'password_icon' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bg") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bg' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "oval_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'oval_icon' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "selected_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'selected_icon' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "valid_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'valid_icon' is used in storyboard 'LoginingStoryboard', but couldn't be loaded.") }
+        if _R.storyboard.loginingStoryboard().registerViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'registerViewController' could not be loaded from storyboard 'LoginingStoryboard' as 'RegisterViewController'.") }
+        if _R.storyboard.loginingStoryboard().resetPasswordViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'resetPasswordViewController' could not be loaded from storyboard 'LoginingStoryboard' as 'ResetPasswordViewController'.") }
         if _R.storyboard.loginingStoryboard().retrievePasswordViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'retrievePasswordViewController' could not be loaded from storyboard 'LoginingStoryboard' as 'RetrievePasswordViewController'.") }
+        if _R.storyboard.loginingStoryboard().loginViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'loginViewController' could not be loaded from storyboard 'LoginingStoryboard' as 'LoginViewController'.") }
       }
       
       fileprivate init() {}
