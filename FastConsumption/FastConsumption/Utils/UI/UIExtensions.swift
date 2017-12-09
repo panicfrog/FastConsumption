@@ -219,6 +219,7 @@ extension CGFloat {
     
     public var scaleHeight: CGFloat {
         return scaleHeightBaseIphone6()
+        
     }
     
     private func scaleWidthBaseIphone6() -> CGFloat {
