@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DeviceKit
 
 public var IsPad: Bool { return UIDevice.isPad() }
 public var IsIphone: Bool { return UIDevice.isIphone() }
@@ -196,5 +197,37 @@ extension CGRect {
     }
 }
 
-
+extension CGFloat {
+    /**
+     -----------------------------------
+     |        Device        |   Ratio  |
+     |----------------------+----------|
+     | iphone 4s            |  320*372 |
+     |----------------------+----------|
+     | iphone 5(C/S/SE)     |  320*460 |
+     |----------------------+----------|
+     | iphone 6/7/8(S)      |  375*559 |
+     |----------------------+----------|
+     | iphone 6/7/8 plus(S) |  414*628 |
+     |----------------------+----------|
+     | iphone X             |  375*663 |
+     -----------------------------------
+     */
+    public var scaleWidth: CGFloat {
+        return scaleWidthBaseIphone6()
+    }
+    
+    public var scaleHeight: CGFloat {
+        return scaleHeightBaseIphone6()
+    }
+    
+    private func scaleWidthBaseIphone6() -> CGFloat {
+        let width = UIScreen.main.bounds.width
+        return self/width*375
+    }
+    private func scaleHeightBaseIphone6() -> CGFloat {
+        let height = UIScreen.main.bounds.height
+        return self/height*559
+    }
+    
 }
