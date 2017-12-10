@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DE7D9BF1FDC0240005EBB06 /* YogaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D9BE1FDC0240005EBB06 /* YogaExtension.swift */; };
+		6DE7D9C11FDC5647005EBB06 /* Hook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D9C01FDC5647005EBB06 /* Hook.swift */; };
 		8BBF5DA82E68BC7A86D9F9CC /* Pods_FastConsumptionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44C6ECB60A10120F559429C /* Pods_FastConsumptionTests.framework */; };
 		8FB2B4341FD4DE9E00A290AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2B4331FD4DE9E00A290AF /* AppDelegate.swift */; };
 		8FB2B43B1FD4DE9E00A290AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2B43A1FD4DE9E00A290AF /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 		27DE063F6B8CD64EABCAA934 /* Pods-FastConsumptionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumptionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumptionUITests/Pods-FastConsumptionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31716A9D1198CFA1E35F0556 /* Pods_FastConsumption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastConsumption.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6211AE9BA99955091A2753D4 /* Pods-FastConsumption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastConsumption.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastConsumption/Pods-FastConsumption.release.xcconfig"; sourceTree = "<group>"; };
+		6DE7D9BE1FDC0240005EBB06 /* YogaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaExtension.swift; sourceTree = "<group>"; };
+		6DE7D9C01FDC5647005EBB06 /* Hook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hook.swift; sourceTree = "<group>"; };
 		8FB2B4301FD4DE9E00A290AF /* FastConsumption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastConsumption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB2B4331FD4DE9E00A290AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB2B43A1FD4DE9E00A290AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				8FB2B4641FD4EDA800A290AF /* UIExtensions.swift */,
+				6DE7D9BE1FDC0240005EBB06 /* YogaExtension.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			children = (
 				8FB2B4661FD4EDA800A290AF /* GCD.swift */,
 				8FB2B4671FD4EDA800A290AF /* MutexLock.swift */,
+				6DE7D9C01FDC5647005EBB06 /* Hook.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -705,9 +711,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE7D9BF1FDC0240005EBB06 /* YogaExtension.swift in Sources */,
 				8FD2FC381FD8F3B100442E80 /* RegisterViewController.swift in Sources */,
 				8FD2FC421FD9125500442E80 /* RetrievePasswordViewModel.swift in Sources */,
 				8FB2B47E1FD4F55F00A290AF /* Support.swift in Sources */,
+				6DE7D9C11FDC5647005EBB06 /* Hook.swift in Sources */,
 				8FB2B4721FD4EFAC00A290AF /* ViewController.swift in Sources */,
 				8FD2FC3C1FD8F3D400442E80 /* ResetPasswordViewController.swift in Sources */,
 				8FD2FC481FD91EB700442E80 /* ProjectUtils.swift in Sources */,
