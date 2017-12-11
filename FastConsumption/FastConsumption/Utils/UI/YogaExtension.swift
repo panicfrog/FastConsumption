@@ -27,34 +27,36 @@ extension UIView {
         
         yoga.flexGrow = layout.flexGrow
         yoga.flexShrink = layout.flexShrink
-        yoga.flexBasis = layout.flexBasis
+        if let flexBasis = layout.flexBasis { yoga.flexBasis = flexBasis }
         
-        yoga.left = layout.left
-        yoga.top = layout.top
-        yoga.right = layout.right
-        yoga.bottom = layout.bottom
-        yoga.start = layout.start
-        yoga.end = layout.end
+        if let left = layout.left { yoga.left = left }
         
-        yoga.marginLeft = layout.marginLeft
-        yoga.marginTop = layout.marginTop
-        yoga.marginRight = layout.marginRight
-        yoga.marginBottom = layout.marginBottom
-        yoga.marginStart = layout.marginStart
-        yoga.marginEnd = layout.marginEnd
-        yoga.marginHorizontal = layout.marginHorizontal
-        yoga.marginVertical = layout.marginVertical
-        yoga.margin = layout.margin
+        if let top = layout.top { yoga.top = top }
+        if let right = layout.right { yoga.right = right }
+        if let bottom = layout.bottom { yoga.bottom = bottom }
+        if let start = layout.start { yoga.start = start }
+        if let end = layout.end { yoga.end = end }
         
-        yoga.paddingLeft = layout.paddingLeft
-        yoga.paddingTop = layout.paddingTop
-        yoga.paddingRight = layout.paddingRight
-        yoga.paddingBottom = layout.paddingBottom
-        yoga.paddingStart = layout.paddingStart
-        yoga.paddingEnd = layout.paddingEnd
-        yoga.paddingHorizontal = layout.paddingHorizontal
-        yoga.paddingVertical = layout.paddingVertical
-        yoga.padding = layout.padding
+        if let marginLeft = layout.marginLeft { yoga.marginLeft = marginLeft }
+        if let marginTop = layout.marginTop { yoga.marginTop = marginTop }
+        if let marginRight = layout.marginRight { yoga.marginRight = marginRight }
+        if let marginBottom = layout.marginBottom { yoga.marginBottom = marginBottom }
+        if let marginStart = layout.marginStart { yoga.marginStart = marginStart }
+        if let marginEnd = layout.marginEnd { yoga.marginEnd = marginEnd }
+        if let marginHorizontal = layout.marginHorizontal { yoga.marginHorizontal = marginHorizontal }
+        if let marginHorizontal = layout.marginHorizontal { yoga.marginHorizontal = marginHorizontal }
+        if let marginVertical = layout.marginVertical { yoga.marginVertical = marginVertical }
+        if let margin = layout.margin { yoga.margin = margin }
+
+        if let paddingLeft = layout.paddingLeft { yoga.paddingLeft = paddingLeft }
+        if let paddingTop = layout.paddingTop { yoga.paddingTop = paddingTop }
+        if let paddingRight = layout.paddingRight { yoga.paddingRight = paddingRight }
+        if let paddingBottom = layout.paddingBottom { yoga.paddingBottom = paddingBottom }
+        if let paddingStart = layout.paddingStart { yoga.paddingStart = paddingStart }
+        if let paddingEnd = layout.paddingEnd { yoga.paddingEnd = paddingEnd }
+        if let paddingHorizontal = layout.paddingHorizontal { yoga.paddingHorizontal = paddingHorizontal }
+        if let paddingVertical = layout.paddingVertical { yoga.paddingVertical = paddingVertical }
+        if let padding = layout.padding { yoga.padding = padding }
         
         yoga.borderLeftWidth = layout.borderLeftWidth
         yoga.borderTopWidth = layout.borderTopWidth
@@ -64,12 +66,12 @@ extension UIView {
         yoga.borderEndWidth = layout.borderEndWidth
         yoga.borderWidth = layout.borderWidth
         
-        yoga.width = layout.width
-        yoga.height = layout.height
-        yoga.minWidth = layout.minWidth
-        yoga.minHeight = layout.minHeight
-        yoga.maxWidth = layout.maxWidth
-        yoga.maxHeight = layout.maxHeight
+        if let width = layout.width { yoga.width = width }
+        if let height = layout.height { yoga.height = height }
+        if let minWidth = layout.minWidth { yoga.minWidth = minWidth }
+        if let minHeight = layout.minHeight { yoga.minHeight = minHeight }
+        if let maxWidth = layout.maxWidth { yoga.maxWidth = maxWidth }
+        if let maxHeight = layout.maxHeight { yoga.maxHeight = maxHeight }
         
         yoga.aspectRatio = layout.aspectRatio
         
@@ -78,77 +80,77 @@ extension UIView {
 //
 //private let undefineValue = YGValueUndefined
 //private let autoValue = YGValueAuto
-
+private let YOGA = UIView().yoga
 private let undefineValue = YGValue(value: 0, unit: YGUnit.undefined)
 private let autoValue = YGValue(value: 0, unit: YGUnit.auto)
 
 // MARK: - 建立一个虚拟的layout 用来复用布局
 public class VirtualLayout {
     
-    var isIncludedInLayout: Bool = true
-    var isEnabled: Bool = false
+    var isIncludedInLayout: Bool = YOGA.isIncludedInLayout
+    var isEnabled: Bool = YOGA.isEnabled
     
-    var direction: YGDirection = .inherit
-    var flexDirection: YGFlexDirection = .column
-    var justifyContent: YGJustify = .flexStart
-    var alignContent: YGAlign = .flexStart
-    var alignItems: YGAlign = .flexEnd
-    var alignSelf: YGAlign = .auto
+    var direction: YGDirection = YOGA.direction
+    var flexDirection: YGFlexDirection = YOGA.flexDirection
+    var justifyContent: YGJustify = YOGA.justifyContent
+    var alignContent: YGAlign = YOGA.alignContent
+    var alignItems: YGAlign = YOGA.alignItems
+    var alignSelf: YGAlign = YOGA.alignSelf
     
-    var position: YGPositionType = .relative
-    var flexWrap: YGWrap = .noWrap
-    var overflow: YGOverflow = .visible
-    var display: YGDisplay = .flex
+    var position: YGPositionType = YOGA.position
+    var flexWrap: YGWrap = YOGA.flexWrap
+    var overflow: YGOverflow = YOGA.overflow
+    var display: YGDisplay = YOGA.display
     
-    var flexGrow: CGFloat = 0
-    var flexShrink: CGFloat = 0
-    var flexBasis: YGValue = autoValue
+    var flexGrow: CGFloat = YOGA.flexGrow
+    var flexShrink: CGFloat = YOGA.flexShrink
+    var flexBasis: YGValue? = nil
     
-    var left: YGValue = undefineValue
-    var top: YGValue = undefineValue
-    var right: YGValue = undefineValue
-    var bottom: YGValue = undefineValue
-    var start: YGValue = undefineValue
-    var end: YGValue = undefineValue
+    var left: YGValue? = nil
+    var top: YGValue? = nil
+    var right: YGValue? = nil
+    var bottom: YGValue? = nil
+    var start: YGValue? = nil
+    var end: YGValue? = nil
 
-    var marginLeft: YGValue = undefineValue
-    var marginTop: YGValue = undefineValue
-    var marginRight: YGValue = undefineValue
-    var marginBottom: YGValue = undefineValue
-    var marginStart: YGValue = undefineValue
-    var marginEnd: YGValue = undefineValue
-    var marginHorizontal: YGValue = undefineValue
-    var marginVertical: YGValue = undefineValue
-    var margin: YGValue = undefineValue
+    var marginLeft: YGValue? = nil
+    var marginTop: YGValue? = nil
+    var marginRight: YGValue? = nil
+    var marginBottom: YGValue? = nil
+    var marginStart: YGValue? = nil
+    var marginEnd: YGValue? = nil
+    var marginHorizontal: YGValue? = nil
+    var marginVertical: YGValue? = nil
+    var margin: YGValue? = nil
 
-    var paddingLeft: YGValue = undefineValue
-    var paddingTop: YGValue = undefineValue
-    var paddingRight: YGValue = undefineValue
-    var paddingBottom: YGValue = undefineValue
-    var paddingStart: YGValue = undefineValue
-    var paddingEnd: YGValue = undefineValue
-    var paddingHorizontal: YGValue = undefineValue
-    var paddingVertical: YGValue = undefineValue
-    var padding: YGValue = undefineValue
+    var paddingLeft: YGValue? = nil
+    var paddingTop: YGValue? = nil
+    var paddingRight: YGValue? = nil
+    var paddingBottom: YGValue? = nil
+    var paddingStart: YGValue? = nil
+    var paddingEnd: YGValue? = nil
+    var paddingHorizontal: YGValue? = nil
+    var paddingVertical: YGValue? = nil
+    var padding: YGValue? = nil
     
     //内存中全部标记为nan
-    var borderLeftWidth : CGFloat = 0
-    var borderTopWidth : CGFloat = 0
-    var borderRightWidth : CGFloat = 0
-    var borderBottomWidth : CGFloat = 0
-    var borderStartWidth : CGFloat = 0
-    var borderEndWidth : CGFloat = 0
-    var borderWidth : CGFloat = 0
+    var borderLeftWidth : CGFloat = YOGA.borderLeftWidth
+    var borderTopWidth : CGFloat = YOGA.borderTopWidth
+    var borderRightWidth : CGFloat = YOGA.borderRightWidth
+    var borderBottomWidth : CGFloat = YOGA.borderBottomWidth
+    var borderStartWidth : CGFloat = YOGA.borderStartWidth
+    var borderEndWidth : CGFloat = YOGA.borderEndWidth
+    var borderWidth : CGFloat = YOGA.borderWidth
     
-    var width: YGValue = autoValue
-    var height: YGValue = autoValue
-    var minWidth: YGValue = undefineValue
-    var minHeight: YGValue = undefineValue
-    var maxWidth: YGValue = undefineValue
-    var maxHeight: YGValue = undefineValue
+    var width: YGValue? = nil
+    var height: YGValue? = nil
+    var minWidth: YGValue? = nil
+    var minHeight: YGValue? = nil
+    var maxWidth: YGValue? = nil
+    var maxHeight: YGValue? = nil
     
     //内存中标记为nan
-    var aspectRatio: CGFloat = 0
+    var aspectRatio: CGFloat = YOGA.aspectRatio
 }
 
 // MARK: - 让虚拟的layout链式调用
@@ -248,139 +250,139 @@ extension VirtualLayout {
         self.left = left
         return self
     }
-    
+
     @discardableResult
     public func top(_ top: YGValue) -> VirtualLayout {
         self.top = top
         return self
     }
-    
+
     @discardableResult
     public func right(_ right: YGValue) -> VirtualLayout {
         self.right = right
         return self
     }
-    
+
     @discardableResult
     public func bottom(_ bottom: YGValue) -> VirtualLayout {
         self.bottom = bottom
         return self
     }
-    
+
     @discardableResult
     public func start(_ start: YGValue) -> VirtualLayout {
         self.start = start
         return self
     }
-    
+
     @discardableResult
     public func end(_ end: YGValue) -> VirtualLayout {
         self.end = end
         return self
     }
-    
+
     @discardableResult
     public func marginLeft(_ marginLeft: YGValue) -> VirtualLayout {
         self.marginLeft = marginLeft
         return self
     }
-    
+
     @discardableResult
     public func marginTop(_ marginTop: YGValue) -> VirtualLayout {
         self.marginTop = marginTop
         return self
     }
-    
+
     @discardableResult
     public func marginRight(_ marginRight: YGValue) -> VirtualLayout {
         self.marginRight = marginRight
         return self
     }
-    
+
     @discardableResult
     public func marginBottom(_ marginBottom: YGValue) -> VirtualLayout {
         self.marginBottom = marginBottom
         return self
     }
-    
+
     @discardableResult
     public func marginStart(_ marginStart: YGValue) -> VirtualLayout {
         self.marginStart = marginStart
         return self
     }
-    
+
     @discardableResult
     public func marginEnd(_ marginEnd: YGValue) -> VirtualLayout {
         self.marginEnd = marginEnd
         return self
     }
-    
+
     @discardableResult
     public func marginHorizontal(_ marginHorizontal: YGValue) -> VirtualLayout {
         self.marginHorizontal = marginHorizontal
         return self
     }
-    
+
     @discardableResult
     public func marginVertical(_ marginVertical: YGValue) -> VirtualLayout {
         self.marginVertical = marginVertical
         return self
     }
-    
+
     @discardableResult
     public func margin(_ margin: YGValue) -> VirtualLayout {
         self.margin = margin
         return self
     }
-    
+
     @discardableResult
     public func paddingLeft(_ paddingLeft: YGValue) -> VirtualLayout {
         self.paddingLeft = paddingLeft
         return self
     }
-    
+
     @discardableResult
     public func paddingTop(_ paddingTop: YGValue) -> VirtualLayout {
         self.paddingTop = paddingTop
         return self
     }
-    
+
     @discardableResult
     public func paddingRight(_ paddingRight: YGValue) -> VirtualLayout {
         self.paddingRight = paddingRight
         return self
     }
-    
+
     @discardableResult
     public func paddingBottom(_ paddingBottom: YGValue) -> VirtualLayout {
         self.paddingBottom = paddingBottom
         return self
     }
-    
+
     @discardableResult
     public func paddingStart(_ paddingStart: YGValue) -> VirtualLayout {
         self.paddingStart = paddingStart
         return self
     }
-    
+
     @discardableResult
     public func paddingEnd(_ paddingEnd: YGValue) -> VirtualLayout {
         self.paddingEnd = paddingEnd
         return self
     }
-    
+
     @discardableResult
     public func paddingHorizontal(_ paddingHorizontal: YGValue) -> VirtualLayout {
         self.paddingHorizontal = paddingHorizontal
         return self
     }
-    
+
     @discardableResult
     public func paddingVertical(_ paddingVertical: YGValue) -> VirtualLayout {
         self.paddingVertical = paddingVertical
         return self
     }
-    
+
     @discardableResult
     public func padding(_ padding: YGValue) -> VirtualLayout {
         self.padding = padding
@@ -434,31 +436,31 @@ extension VirtualLayout {
         self.width = width
         return self
     }
-    
+
     @discardableResult
     public func height(_ height: YGValue) -> VirtualLayout {
         self.height = height
         return self
     }
-    
+
     @discardableResult
     public func minWidth(_ minWidth: YGValue) -> VirtualLayout {
         self.minWidth = minWidth
         return self
     }
-    
+
     @discardableResult
     public func minHeight(_ minHeight: YGValue) -> VirtualLayout {
         self.minHeight = minHeight
         return self
     }
-    
+
     @discardableResult
     public func maxWidth(_ maxWidth: YGValue) -> VirtualLayout {
         self.maxWidth = maxWidth
         return self
     }
-    
+
     @discardableResult
     public func maxHeight(_ maxHeight: YGValue) -> VirtualLayout {
         self.maxHeight = maxHeight
@@ -558,11 +560,11 @@ extension YGLayout {
         return self
     }
     
-    @discardableResult
-    public func flexBasis(_ flexBasis: YGValue) -> YGLayout {
-        self.flexBasis = flexBasis
-        return self
-    }
+//    @discardableResult
+//    public func flexBasis(_ flexBasis: YGValue) -> YGLayout {
+//        self.flexBasis = flexBasis
+//        return self
+//    }
     
     @discardableResult
     public func left(_ left: YGValue) -> YGLayout {

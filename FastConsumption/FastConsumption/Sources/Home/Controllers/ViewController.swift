@@ -23,13 +23,13 @@ class ViewController: UIViewController {
         containerView.layout(Layout.containerViewLayout)
 
         let viewBlue = UIView()
-        viewBlue.layout(Layout.baseLayout)
+        viewBlue.layout(Layout.blueLayout)
         viewBlue.backgroundColor = .blue
         containerView.addSubview(viewBlue)
 
         let viewRed = UIView()
         viewRed.backgroundColor = .red
-        viewRed.layout(Layout.baseLayout)
+        viewRed.layout(Layout.redLayout)
         containerView.addSubview(viewRed)
 
         containerView.yoga.applyLayout(preservingOrigin: true)
@@ -45,13 +45,14 @@ class ViewController: UIViewController {
         static var redLayout: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .flexGrow(2)
+                .width(80)
+                .marginRight(50)
         }
         
         static var blueLayout: VirtualLayout {
             return VirtualLayout()
             .isEnable(true)
-            .flexGrow(1)
+            .flexGrow(3)
         }
         
         static var baseLayout: VirtualLayout {
