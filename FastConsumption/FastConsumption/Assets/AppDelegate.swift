@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         /// 配置调试工具
-        configFlex()
+//        configFlex()
         /// 配置日志系统
         configLogger()
         /// 配置全局键盘

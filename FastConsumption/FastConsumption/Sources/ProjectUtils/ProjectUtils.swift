@@ -45,14 +45,10 @@ func validateValidcode(validcode: String) -> Bool {
     return validcodePredicate.evaluate(with: validcode)
 }
 
-
-//extension UITextField {
-//
-//    func limit(_ length:UInt) {
-//      _ = rx.value.subscribe(onNext: { [weak self] value in
-//            guard let value = value else { return }
-//        if value.count > length {  value.prefix(Int(length)) }
-//        })
-//    }
-//}
+/// 验证是是否是邮箱
+func validateEmailAddress(_ text: String) -> Bool {
+    let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
+    let testPredicate = NSPredicate(format:"SELF MATCHES %@", emailRegex)
+    return testPredicate.evaluate(with: text)
+}
 
