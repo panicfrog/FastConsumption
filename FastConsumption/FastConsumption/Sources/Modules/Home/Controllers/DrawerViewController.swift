@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  ArriveWithin3s
+//  FastConsumption
 //
-//  Created by Macx on 2017/11/24.
+//  Created by Macx on 2017/12/4.
 //  Copyright © 2017年 Macx. All rights reserved.
 //
 
