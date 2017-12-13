@@ -40,7 +40,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 46 images.
+  /// This `R.image` struct is generated, and contains static references to 47 images.
   struct image {
     /// Image `arrow_black`.
     static let arrow_black = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_black")
@@ -132,6 +132,8 @@ struct R: Rswift.Validatable {
     static let sidebar_txitaccount_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_txitaccount_icom")
     /// Image `sidebar_txitaccount_pressed_icom`.
     static let sidebar_txitaccount_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_txitaccount_pressed_icom")
+    /// Image `split_line`.
+    static let split_line = Rswift.ImageResource(bundle: R.hostingBundle, name: "split_line")
     /// Image `valid_icon`.
     static let valid_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "valid_icon")
     
@@ -358,6 +360,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "sidebar_txitaccount_pressed_icom", bundle: ..., traitCollection: ...)`
     static func sidebar_txitaccount_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.sidebar_txitaccount_pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "split_line", bundle: ..., traitCollection: ...)`
+    static func split_line(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.split_line, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "valid_icon", bundle: ..., traitCollection: ...)`

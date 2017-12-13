@@ -230,5 +230,38 @@ extension CGFloat {
         let height = UIScreen.main.bounds.height
         return self/height*559
     }
-    
 }
+
+extension Int {
+    public var scaleWidth: CGFloat {
+        return CGFloat(self).scaleWidth
+    }
+    
+    public var scaleHeight: CGFloat {
+        return CGFloat(self).scaleHeight
+        
+    }
+}
+
+extension Double {
+    public var scaleWidth: CGFloat {
+        return CGFloat(self).scaleWidth
+    }
+    
+    public var scaleHeight: CGFloat {
+        return CGFloat(self).scaleHeight
+        
+    }
+}
+
+extension Float {
+    public var scaleWidth: CGFloat {
+        return CGFloat(self).scaleWidth
+    }
+    
+    public var scaleHeight: CGFloat {
+        return CGFloat(self).scaleHeight
+        
+    }
+}
+

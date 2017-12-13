@@ -12,6 +12,7 @@
 		8BBF5DA82E68BC7A86D9F9CC /* Pods_FastConsumptionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44C6ECB60A10120F559429C /* Pods_FastConsumptionTests.framework */; };
 		8F1DDA331FE0B77000797965 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DDA321FE0B77000797965 /* Api.swift */; };
 		8F1DDA361FE0BA8900797965 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DDA351FE0BA8900797965 /* sample.json */; };
+		8F1DDA3C1FE0C82A00797965 /* LoadCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DDA3B1FE0C82A00797965 /* LoadCardViewController.swift */; };
 		8F320C481FDFDA8D003B557C /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F320C351FDFDA8D003B557C /* SideViewController.swift */; };
 		8F320C491FDFDA8D003B557C /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F320C361FDFDA8D003B557C /* DrawerViewController.swift */; };
 		8F320C4A1FDFDA8D003B557C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F320C371FDFDA8D003B557C /* ViewController.swift */; };
@@ -68,6 +69,7 @@
 		6DE7D9C01FDC5647005EBB06 /* Hook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hook.swift; sourceTree = "<group>"; };
 		8F1DDA321FE0B77000797965 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		8F1DDA351FE0BA8900797965 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		8F1DDA3B1FE0C82A00797965 /* LoadCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCardViewController.swift; sourceTree = "<group>"; };
 		8F320C351FDFDA8D003B557C /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
 		8F320C361FDFDA8D003B557C /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		8F320C371FDFDA8D003B557C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				8F320C351FDFDA8D003B557C /* SideViewController.swift */,
 				8F320C361FDFDA8D003B557C /* DrawerViewController.swift */,
 				8F320C371FDFDA8D003B557C /* ViewController.swift */,
+				8F1DDA3B1FE0C82A00797965 /* LoadCardViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -764,6 +767,7 @@
 				8F320C4A1FDFDA8D003B557C /* ViewController.swift in Sources */,
 				8F320C511FDFDA8D003B557C /* ResetPasswordViewController.swift in Sources */,
 				8F320C531FDFDA8D003B557C /* RegisterViewController.swift in Sources */,
+				8F1DDA3C1FE0C82A00797965 /* LoadCardViewController.swift in Sources */,
 				8F320C481FDFDA8D003B557C /* SideViewController.swift in Sources */,
 				8F320C4C1FDFDA8D003B557C /* LoginViewModel.swift in Sources */,
 				8F320C501FDFDA8D003B557C /* RetrievePasswordViewController.swift in Sources */,

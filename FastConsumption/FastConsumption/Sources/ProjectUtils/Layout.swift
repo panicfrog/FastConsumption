@@ -9,5 +9,17 @@
 import Foundation
 
 public struct Flex {
+    static var horAround: VirtualLayout  {
+        return VirtualLayout()
+        .isEnable(true)
+        .flexDirection(.row)
+        .justifyContent(.spaceAround)
+    }
     
+    static var verStart: VirtualLayout {
+        return VirtualLayout()
+        .isEnable(true)
+        .flexDirection(.column)
+        .justifyContent(.flexStart)
+    }
 }
