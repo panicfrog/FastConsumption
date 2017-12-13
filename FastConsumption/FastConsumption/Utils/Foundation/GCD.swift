@@ -8,20 +8,20 @@
 
 import Foundation
 
-typealias Task = (_ cancel : Bool) -> Void
+typealias DelayTask = (_ cancel : Bool) -> Void
 
 ///延迟执行任务
 @discardableResult
-func delay(_ time: TimeInterval, task: @escaping ()->()) ->  Task? {
+func delay(_ time: TimeInterval, task: @escaping ()->()) ->  DelayTask? {
     
     func dispatch_later(block: @escaping ()->()) {
         let t = DispatchTime.now() + time
         DispatchQueue.main.asyncAfter(deadline: t, execute: block)
     }
     var closure: (()->Void)? = task
-    var result: Task?
+    var result: DelayTask?
     
-    let delayedClosure: Task = {
+    let delayedClosure: DelayTask = {
         cancel in
         if let internalClosure = closure {
             if (cancel == false) {
@@ -43,6 +43,6 @@ func delay(_ time: TimeInterval, task: @escaping ()->()) ->  Task? {
 }
 
 ///取消延迟执行的任务
-func cancel(_ task: Task?) {
+func cancel(_ task: DelayTask?) {
     task?(true)
 }

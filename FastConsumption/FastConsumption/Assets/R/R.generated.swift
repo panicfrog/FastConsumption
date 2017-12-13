@@ -21,8 +21,17 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 0 files.
+  /// This `R.file` struct is generated, and contains static references to 1 files.
   struct file {
+    /// Resource file `sample.json`.
+    static let sampleJson = Rswift.FileResource(bundle: R.hostingBundle, name: "sample", pathExtension: "json")
+    
+    /// `bundle.url(forResource: "sample", withExtension: "json")`
+    static func sampleJson(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.sampleJson
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
@@ -31,14 +40,64 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 9 images.
+  /// This `R.image` struct is generated, and contains static references to 46 images.
   struct image {
     /// Image `arrow_black`.
     static let arrow_black = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_black")
     /// Image `arrow_white`.
     static let arrow_white = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_white")
+    /// Image `bank_card`.
+    static let bank_card = Rswift.ImageResource(bundle: R.hostingBundle, name: "bank_card")
     /// Image `bg`.
     static let bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "bg")
+    /// Image `borrowedmoney_bg`.
+    static let borrowedmoney_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "borrowedmoney_bg")
+    /// Image `certification_bg`.
+    static let certification_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "certification_bg")
+    /// Image `certification_consent_icom`.
+    static let certification_consent_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "certification_consent_icom")
+    /// Image `certification_consent_selected_icom`.
+    static let certification_consent_selected_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "certification_consent_selected_icom")
+    /// Image `certification_content_icom`.
+    static let certification_content_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "certification_content_icom")
+    /// Image `home_bg`.
+    static let home_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_bg")
+    /// Image `home_borrowingamount_icon`.
+    static let home_borrowingamount_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_borrowingamount_icon")
+    /// Image `home_card_bule_bg`.
+    static let home_card_bule_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_bule_bg")
+    /// Image `home_card_bule_figure`.
+    static let home_card_bule_figure = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_bule_figure")
+    /// Image `home_card_bule_icom`.
+    static let home_card_bule_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_bule_icom")
+    /// Image `home_card_bule_logo`.
+    static let home_card_bule_logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_bule_logo")
+    /// Image `home_card_yellow_bg`.
+    static let home_card_yellow_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_yellow_bg")
+    /// Image `home_card_yellow_logo`.
+    static let home_card_yellow_logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_card_yellow_logo")
+    /// Image `home_dotted`.
+    static let home_dotted = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_dotted")
+    /// Image `home_icon`.
+    static let home_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_icon")
+    /// Image `home_logo`.
+    static let home_logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_logo")
+    /// Image `home_news`.
+    static let home_news = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_news")
+    /// Image `home_next`.
+    static let home_next = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_next")
+    /// Image `home_pdata`.
+    static let home_pdata = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_pdata")
+    /// Image `home_plan`.
+    static let home_plan = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_plan")
+    /// Image `home_tab_back`.
+    static let home_tab_back = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_tab_back")
+    /// Image `home_tab_bg`.
+    static let home_tab_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_tab_bg")
+    /// Image `home_timing_bg`.
+    static let home_timing_bg = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_timing_bg")
+    /// Image `home_toborrow_icon`.
+    static let home_toborrow_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "home_toborrow_icon")
     /// Image `logo`.
     static let logo = Rswift.ImageResource(bundle: R.hostingBundle, name: "logo")
     /// Image `oval_icon`.
@@ -49,6 +108,30 @@ struct R: Rswift.Validatable {
     static let phone_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "phone_icon")
     /// Image `selected_icon`.
     static let selected_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "selected_icon")
+    /// Image `sidebar_bankcard__pressed_icom`.
+    static let sidebar_bankcard__pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_bankcard__pressed_icom")
+    /// Image `sidebar_bankcard_icom`.
+    static let sidebar_bankcard_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_bankcard_icom")
+    /// Image `sidebar_bankcard_pressed_icom`.
+    static let sidebar_bankcard_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_bankcard_pressed_icom")
+    /// Image `sidebar_certification_icom`.
+    static let sidebar_certification_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_certification_icom")
+    /// Image `sidebar_certification_pressed_icom`.
+    static let sidebar_certification_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_certification_pressed_icom")
+    /// Image `sidebar_headportrait_icom`.
+    static let sidebar_headportrait_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_headportrait_icom")
+    /// Image `sidebar_question_icom`.
+    static let sidebar_question_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_question_icom")
+    /// Image `sidebar_question_pressed_icom`.
+    static let sidebar_question_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_question_pressed_icom")
+    /// Image `sidebar_toborrow_icom`.
+    static let sidebar_toborrow_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_toborrow_icom")
+    /// Image `sidebar_toborrow_pressed_icom`.
+    static let sidebar_toborrow_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_toborrow_pressed_icom")
+    /// Image `sidebar_txitaccount_icom`.
+    static let sidebar_txitaccount_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_txitaccount_icom")
+    /// Image `sidebar_txitaccount_pressed_icom`.
+    static let sidebar_txitaccount_pressed_icom = Rswift.ImageResource(bundle: R.hostingBundle, name: "sidebar_txitaccount_pressed_icom")
     /// Image `valid_icon`.
     static let valid_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "valid_icon")
     
@@ -62,9 +145,134 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.arrow_white, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "bank_card", bundle: ..., traitCollection: ...)`
+    static func bank_card(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.bank_card, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "bg", bundle: ..., traitCollection: ...)`
     static func bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "borrowedmoney_bg", bundle: ..., traitCollection: ...)`
+    static func borrowedmoney_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.borrowedmoney_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "certification_bg", bundle: ..., traitCollection: ...)`
+    static func certification_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.certification_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "certification_consent_icom", bundle: ..., traitCollection: ...)`
+    static func certification_consent_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.certification_consent_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "certification_consent_selected_icom", bundle: ..., traitCollection: ...)`
+    static func certification_consent_selected_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.certification_consent_selected_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "certification_content_icom", bundle: ..., traitCollection: ...)`
+    static func certification_content_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.certification_content_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_bg", bundle: ..., traitCollection: ...)`
+    static func home_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_borrowingamount_icon", bundle: ..., traitCollection: ...)`
+    static func home_borrowingamount_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_borrowingamount_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_bule_bg", bundle: ..., traitCollection: ...)`
+    static func home_card_bule_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_bule_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_bule_figure", bundle: ..., traitCollection: ...)`
+    static func home_card_bule_figure(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_bule_figure, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_bule_icom", bundle: ..., traitCollection: ...)`
+    static func home_card_bule_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_bule_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_bule_logo", bundle: ..., traitCollection: ...)`
+    static func home_card_bule_logo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_bule_logo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_yellow_bg", bundle: ..., traitCollection: ...)`
+    static func home_card_yellow_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_yellow_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_card_yellow_logo", bundle: ..., traitCollection: ...)`
+    static func home_card_yellow_logo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_card_yellow_logo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_dotted", bundle: ..., traitCollection: ...)`
+    static func home_dotted(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_dotted, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_icon", bundle: ..., traitCollection: ...)`
+    static func home_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_logo", bundle: ..., traitCollection: ...)`
+    static func home_logo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_logo, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_news", bundle: ..., traitCollection: ...)`
+    static func home_news(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_news, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_next", bundle: ..., traitCollection: ...)`
+    static func home_next(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_next, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_pdata", bundle: ..., traitCollection: ...)`
+    static func home_pdata(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_pdata, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_plan", bundle: ..., traitCollection: ...)`
+    static func home_plan(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_plan, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_tab_back", bundle: ..., traitCollection: ...)`
+    static func home_tab_back(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_tab_back, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_tab_bg", bundle: ..., traitCollection: ...)`
+    static func home_tab_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_tab_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_timing_bg", bundle: ..., traitCollection: ...)`
+    static func home_timing_bg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_timing_bg, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "home_toborrow_icon", bundle: ..., traitCollection: ...)`
+    static func home_toborrow_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.home_toborrow_icon, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "logo", bundle: ..., traitCollection: ...)`
@@ -90,6 +298,66 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "selected_icon", bundle: ..., traitCollection: ...)`
     static func selected_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.selected_icon, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_bankcard__pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_bankcard__pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_bankcard__pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_bankcard_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_bankcard_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_bankcard_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_bankcard_pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_bankcard_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_bankcard_pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_certification_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_certification_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_certification_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_certification_pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_certification_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_certification_pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_headportrait_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_headportrait_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_headportrait_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_question_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_question_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_question_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_question_pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_question_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_question_pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_toborrow_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_toborrow_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_toborrow_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_toborrow_pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_toborrow_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_toborrow_pressed_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_txitaccount_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_txitaccount_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_txitaccount_icom, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "sidebar_txitaccount_pressed_icom", bundle: ..., traitCollection: ...)`
+    static func sidebar_txitaccount_pressed_icom(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sidebar_txitaccount_pressed_icom, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "valid_icon", bundle: ..., traitCollection: ...)`

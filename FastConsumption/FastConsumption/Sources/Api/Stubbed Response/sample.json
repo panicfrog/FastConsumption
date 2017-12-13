@@ -1,0 +1,9 @@
+{
+    "data":{
+        "sample":"sample data"
+    },
+    "status":{
+        "code": 0
+        "msg": "成功"
+    }
+}
