@@ -202,15 +202,15 @@ extension CGFloat {
      -----------------------------------
      |        Device        |   Ratio  |
      |----------------------+----------|
-     | iphone 4s            |  320*372 |
+     | iphone 4s            |  320*480 |
      |----------------------+----------|
-     | iphone 5(C/S/SE)     |  320*460 |
+     | iphone 5(C/S/SE)     |  320*568 |
      |----------------------+----------|
-     | iphone 6/7/8(S)      |  375*559 |
+     | iphone 6/7/8(S)      |  375*667 |
      |----------------------+----------|
-     | iphone 6/7/8 plus(S) |  414*628 |
+     | iphone 6/7/8 plus(S) |  414*736 |
      |----------------------+----------|
-     | iphone X             |  375*663 |
+     | iphone X             |  375*812 |
      -----------------------------------
      */
     public var scaleWidth: CGFloat {
@@ -224,11 +224,11 @@ extension CGFloat {
     
     private func scaleWidthBaseIphone6() -> CGFloat {
         let width = UIScreen.main.bounds.width
-        return self/width*375
+        return self/375*width
     }
     private func scaleHeightBaseIphone6() -> CGFloat {
         let height = UIScreen.main.bounds.height
-        return self/height*559
+        return self/667*height
     }
 }
 

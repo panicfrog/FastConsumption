@@ -9,6 +9,8 @@
 import UIKit
 import YogaKit
 
+fileprivate let ratio = (ScreenWidth - 36.scaleWidth)/340.0
+
 class LoadCardViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -46,13 +48,13 @@ class LoadCardViewController: UIViewController {
         let myVildeButton = UIButton()
         myVildeButton.layout(Layout.myVildeButtonLayout)
         myVildeButton.setBackgroundImage(Image.home_icon(), for: .normal)
-        myVildeButton.layer.cornerRadius = (21.0/2).scaleHeight
+        myVildeButton.layer.cornerRadius = (21.0/2)*ratio
         logoConentView.addSubview(myVildeButton)
         
         // 1.3 信用额度标签
         let creditlineLabel = UILabel()
         creditlineLabel.layout(Layout.creditlineLabelLayout)
-        creditlineLabel.font = UIFont.systemFont(ofSize: 10)
+        creditlineLabel.font = UIFont.systemFont(ofSize: 10*ratio)
         creditlineLabel.textColor = .white
         creditlineLabel.text = "——   信用额度   ——"
         lightingView.addSubview(creditlineLabel)
@@ -62,15 +64,15 @@ class LoadCardViewController: UIViewController {
         quotaLabel.layout(Layout.quotaLabelLayout)
         quotaLabel.text = "￥5000"
         quotaLabel.textColor = .white
-        quotaLabel.font = UIFont.systemFont(ofSize: 30)
+        quotaLabel.font = UIFont.systemFont(ofSize: 30*ratio)
         lightingView.addSubview(quotaLabel)
         
         // 1.5 提额按钮
         let mentionButton = UIButton()
         mentionButton.setTitle("如何提高通过率？", for: .normal)
         mentionButton.layout(Layout.mentionButtonLayout)
-        mentionButton.titleLabel?.font = UIFont.systemFont(ofSize: 8)
-        mentionButton.layer.cornerRadius = (22/2).scaleHeight
+        mentionButton.titleLabel?.font = UIFont.systemFont(ofSize: 8*ratio)
+        mentionButton.layer.cornerRadius = (22/2)*ratio
         mentionButton.layer.masksToBounds = true
         mentionButton.layer.borderColor = UIColor.white.cgColor
         mentionButton.layer.borderWidth = 0.5
@@ -85,12 +87,8 @@ class LoadCardViewController: UIViewController {
         figureTipLabel.layout(Layout.figureTipLabel)
         figureTipLabel.textColor = .white
         figureTipLabel.text = "请30日后再次申请"
-        figureTipLabel.font = UIFont.systemFont(ofSize: 10)
+        figureTipLabel.font = UIFont.systemFont(ofSize: 10*ratio)
         figureImageView.addSubview(figureTipLabel)
-        
-//        let threeSecView = UIView()
-//        lightingView.layout(Layout.threeViewLayout)
-//        view.addSubview(threeSecView)
         
         view.yoga.applyLayout(preservingOrigin: true)
     }
@@ -101,7 +99,7 @@ class LoadCardViewController: UIViewController {
             return VirtualLayout()
                 .isEnable(true)
                 .paddingHorizontal(YGValue(18.scaleWidth))
-                .paddingTop(YGValue(13.scaleHeight))
+                .paddingTop(YGValue(13*ratio))
                 .justifyContent(.flexStart)
             
         }
@@ -111,7 +109,7 @@ class LoadCardViewController: UIViewController {
                 .flexDirection(.column)
                 .justifyContent(.flexStart)
                 .alignItems(.center)
-                .paddingTop(YGValue(13.scaleHeight))
+                .paddingTop(YGValue(13*ratio))
                 .aspectRatio(340.0/180.0)
         }
         
@@ -120,14 +118,14 @@ class LoadCardViewController: UIViewController {
                 .isEnable(true)
                 .flexDirection(.row)
                 .justifyContent(.spaceBetween)
-                .height(YGValue(21.scaleHeight))
+                .height(YGValue(21*ratio))
                 .width(YGValue(ScreenWidth - 36.scaleWidth))
         }
         
         static var logoImageView: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .height(YGValue(21.scaleHeight))
+                .height(YGValue(21*ratio))
                 .marginLeft(YGValue(18.scaleWidth))
                 .aspectRatio(181.0/44.0)
         }
@@ -135,34 +133,34 @@ class LoadCardViewController: UIViewController {
         static var myVildeButtonLayout: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .height(YGValue(21.scaleHeight))
+                .height(YGValue(21*ratio))
                 .aspectRatio(75.0/21.0)
         }
         
         static var creditlineLabelLayout: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .marginTop(YGValue(18.scaleHeight))
+                .marginTop(YGValue(16.5*ratio))
         }
         
         static var quotaLabelLayout: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .marginTop(YGValue(14.scaleHeight))
+                .marginTop(YGValue(14*ratio))
         }
         
         static var mentionButtonLayout: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .height(YGValue(22.scaleHeight))
+                .height(YGValue(22*ratio))
                 .aspectRatio(95.0/22.0)
-                .marginTop(YGValue(11.5.scaleHeight))
+                .marginTop(YGValue(11.5*ratio))
         }
         
         static var figureImageView: VirtualLayout {
             return VirtualLayout()
                 .isEnable(true)
-                .height(YGValue(13.scaleHeight))
+                .height(YGValue(13*ratio))
                 .aspectRatio(558.0/27.0)
                 .flexDirection(.row)
                 .justifyContent(.center)
@@ -173,10 +171,6 @@ class LoadCardViewController: UIViewController {
             return VirtualLayout()
                 .isEnable(true)
         }
-        
-        //        static var threeViewLayout: VirtualLayout {
-        //            return VirtualLayout()
-        //                .isEnable(true)
-        //        }
+    
     }
 }

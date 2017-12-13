@@ -16,12 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(ScreenWidth)
+        print(ScreenHeight)
        
     }
     @IBAction func push(_ sender: UIButton) {
-        
         self.present(LoadCardViewController(), animated: true, completion: nil)
-        
     }
     
 }
