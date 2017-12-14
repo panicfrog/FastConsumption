@@ -21,7 +21,9 @@ class ViewController: UIViewController {
        
     }
     @IBAction func push(_ sender: UIButton) {
-        self.present(LoadCardViewController(), animated: true, completion: nil)
+//        self.present(HomeViewController(), animated: true, completion: nil)
+        let drawerViewController = DrawerViewController(side: SideViewController(), bottom: nil)
+        self.present(drawerViewController, animated: true, completion: nil)
     }
     
 }

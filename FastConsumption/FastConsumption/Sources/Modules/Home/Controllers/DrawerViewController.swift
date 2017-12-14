@@ -31,19 +31,19 @@ public class DrawerViewController: UIViewController {
         configBottomViewController()
         configSideViewController()
         
-        delay(5) { self.showSide() }
-        delay(10) { self.hideSide() }
+        delay(1) { self.showSide() }
+//        delay(10) { self.hideSide() }
         
-        let yellowViewController = UIViewController()
-        yellowViewController.view.backgroundColor = .yellow
-        delay(12) { self.setBottomViewController(bottomViewController: yellowViewController) }
-        
-        let blueViewController = UIViewController()
-        blueViewController.view.backgroundColor = .blue
-        delay(15) { self.setBottomViewController(bottomViewController: blueViewController) }
-        
-        delay(18) { self.showSide() }
-        delay(20) { self.hideSide() }
+//        let yellowViewController = UIViewController()
+//        yellowViewController.view.backgroundColor = .yellow
+//        delay(12) { self.setBottomViewController(bottomViewController: yellowViewController) }
+//
+//        let blueViewController = UIViewController()
+//        blueViewController.view.backgroundColor = .blue
+//        delay(15) { self.setBottomViewController(bottomViewController: blueViewController) }
+//
+//        delay(18) { self.showSide() }
+//        delay(20) { self.hideSide() }
         
     }
     
@@ -51,7 +51,6 @@ public class DrawerViewController: UIViewController {
     func configSideViewController() {
         addChildViewController(side)
         side.view.frame = side.view.frame.offsetBy(dx: -side.view.frame.width, dy: 0)
-        side.view.backgroundColor = .red
         view.addSubview(side.view)
         side.didMove(toParentViewController: self)
     }
