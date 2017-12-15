@@ -16,42 +16,42 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 24,
+      "line": 23,
       "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 36,
+      "line": 35,
       "symbol": "AppDelegate.applicationWillResignActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 41,
+      "line": 40,
       "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 46,
+      "line": 45,
       "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 50,
+      "line": 49,
       "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 54,
+      "line": 53,
       "symbol": "AppDelegate.applicationWillTerminate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -65,163 +65,912 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 100,
+      "line": 445,
       "symbol": "_R",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 101,
+      "line": 446,
+      "symbol": "_R.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 450,
       "symbol": "_R.nib",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 105,
+      "line": 454,
       "symbol": "_R.storyboard",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 106,
+      "line": 455,
+      "symbol": "_R.storyboard.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 459,
       "symbol": "_R.storyboard.launchScreen",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 109,
+      "line": 462,
       "symbol": "_R.storyboard.launchScreen.bundle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 110,
+      "line": 463,
       "symbol": "_R.storyboard.launchScreen.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 115,
+      "line": 468,
+      "symbol": "_R.storyboard.loginingStoryboard",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 469,
+      "symbol": "_R.storyboard.loginingStoryboard.bundle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 470,
+      "symbol": "_R.storyboard.loginingStoryboard.loginViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 471,
+      "symbol": "_R.storyboard.loginingStoryboard.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 472,
+      "symbol": "_R.storyboard.loginingStoryboard.registerViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 473,
+      "symbol": "_R.storyboard.loginingStoryboard.resetPasswordViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 474,
+      "symbol": "_R.storyboard.loginingStoryboard.retrievePasswordViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 476,
+      "symbol": "_R.storyboard.loginingStoryboard.loginViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 480,
+      "symbol": "_R.storyboard.loginingStoryboard.registerViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 484,
+      "symbol": "_R.storyboard.loginingStoryboard.resetPasswordViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 488,
+      "symbol": "_R.storyboard.loginingStoryboard.retrievePasswordViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 492,
+      "symbol": "_R.storyboard.loginingStoryboard.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
+      "line": 509,
       "symbol": "_R.storyboard.main",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 118,
+      "line": 512,
       "symbol": "_R.storyboard.main.bundle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 119,
+      "line": 513,
       "symbol": "_R.storyboard.main.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Home/Controllers/ViewController.swift",
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": null,
+      "symbol": "LightningAPI",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
       "line": 12,
+      "symbol": "LightningAPI",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 13,
+      "symbol": "LightningAPI.sample",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 18,
+      "symbol": "LightningAPI.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 21,
+      "symbol": "LightningAPI.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 25,
+      "symbol": "LightningAPI.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 32,
+      "symbol": "LightningAPI.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 39,
+      "symbol": "LightningAPI.sampleData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 46,
+      "symbol": "LightningAPI.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 55,
+      "symbol": "LightningAPI.task",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 71,
+      "symbol": "LightningAPI.headers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 76,
+      "symbol": "LightningAPI.stubbedResponse(filename:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": null,
+      "symbol": "DrawerViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 12,
+      "symbol": "DrawerViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 14,
+      "symbol": "DrawerViewController.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 15,
+      "symbol": "DrawerViewController.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 17,
+      "symbol": "DrawerViewController.init(side:bottom:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 23,
+      "symbol": "DrawerViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 27,
+      "symbol": "DrawerViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 51,
+      "symbol": "DrawerViewController.configSideViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 58,
+      "symbol": "DrawerViewController.configBottomViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 65,
+      "symbol": "DrawerViewController.setBottomViewController(bottomViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 84,
+      "symbol": "DrawerSiderShowProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 85,
+      "symbol": "DrawerSiderShowProtocol.showSide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 87,
+      "symbol": "DrawerSiderHideProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 88,
+      "symbol": "DrawerSiderHideProtocol.hideSide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 92,
+      "symbol": "DrawerViewController.hideSide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 98,
+      "symbol": "DrawerViewController.showSide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 20,
+      "symbol": "HomeViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 22,
+      "symbol": "HomeViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 28,
+      "symbol": "HomeViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 264,
+      "symbol": "headerBackgroundImageView()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 273,
+      "symbol": "headerView()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 314,
+      "symbol": "horLastEnd(icon:text:tipShow:endString:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
+      "line": 355,
+      "symbol": "horLabelsSpaceBetween(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 14,
+      "symbol": "LoadCardViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 16,
+      "symbol": "LoadCardViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 22,
+      "symbol": "LoadCardViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 97,
+      "symbol": "LoadCardViewController.Layout",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 98,
+      "symbol": "LoadCardViewController.Layout.viewLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 106,
+      "symbol": "LoadCardViewController.Layout.lightingViewLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 116,
+      "symbol": "LoadCardViewController.Layout.logoConentViewLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 125,
+      "symbol": "LoadCardViewController.Layout.logoImageView",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 133,
+      "symbol": "LoadCardViewController.Layout.myVildeButtonLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 140,
+      "symbol": "LoadCardViewController.Layout.creditlineLabelLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 146,
+      "symbol": "LoadCardViewController.Layout.quotaLabelLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 152,
+      "symbol": "LoadCardViewController.Layout.mentionButtonLayout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 160,
+      "symbol": "LoadCardViewController.Layout.figureImageView",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/LoadCardViewController.swift",
+      "line": 170,
+      "symbol": "LoadCardViewController.Layout.figureTipLabel",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 15,
+      "symbol": "SideViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 16,
+      "symbol": "SideViewController.siderHideDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 17,
+      "symbol": "SideViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 22,
+      "symbol": "SideViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 85,
+      "symbol": "SideViewController.configButton(title:selectedImage:nomalImage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
+      "line": 14,
       "symbol": "ViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Home/Controllers/ViewController.swift",
-      "line": 14,
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
+      "line": 16,
       "symbol": "ViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
+      "line": 23,
+      "symbol": "ViewController.push(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 14,
+      "symbol": "LoginViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 15,
+      "symbol": "LoginViewController.sceneStoryboard",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 17,
+      "symbol": "LoginViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 31,
+      "symbol": "LoginViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 35,
+      "symbol": "LoginViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 15,
+      "symbol": "RegisterViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 16,
+      "symbol": "RegisterViewController.sceneStoryboard",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 18,
+      "symbol": "RegisterViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 39,
+      "symbol": "RegisterViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 45,
+      "symbol": "RegisterViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 14,
+      "symbol": "ResetPasswordViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 15,
+      "symbol": "ResetPasswordViewController.sceneStoryboard",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 17,
+      "symbol": "ResetPasswordViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 19,
+      "symbol": "ResetPasswordViewController.newPasswordTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 20,
+      "symbol": "ResetPasswordViewController.nextStepButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 22,
+      "symbol": "ResetPasswordViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 27,
+      "symbol": "ResetPasswordViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 14,
+      "symbol": "RetrievePasswordViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 15,
+      "symbol": "RetrievePasswordViewController.sceneStoryboard",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 17,
+      "symbol": "RetrievePasswordViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 19,
+      "symbol": "RetrievePasswordViewController.phoneTextfield",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 20,
+      "symbol": "RetrievePasswordViewController.validCodeTextfield",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 22,
+      "symbol": "RetrievePasswordViewController.nextStepButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 23,
+      "symbol": "RetrievePasswordViewController.getValidCodeButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 25,
+      "symbol": "RetrievePasswordViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 31,
+      "symbol": "RetrievePasswordViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 11,
+      "symbol": "LoginViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 11,
+      "symbol": "RegisterViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/ResetPasswordViewModel.swift",
+      "line": 11,
+      "symbol": "ResetPasswordViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RetrievePasswordViewModel.swift",
+      "line": 11,
+      "symbol": "RetrievePasswordViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/ProjectUtils/Layout.swift",
+      "line": 11,
+      "symbol": "Flex",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/ProjectUtils/Layout.swift",
       "line": 12,
-      "symbol": "Color",
-      "symbol_kind": "source.lang.swift.decl.var.global",
+      "symbol": "Flex.horAround",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/ProjectUtils/Layout.swift",
+      "line": 19,
+      "symbol": "Flex.verStart",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "Font",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "File",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "Image",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "Nib",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "ResuseIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 18,
+      "line": 19,
       "symbol": "Segue",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "Storyboard",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 27,
-      "symbol": "LogInfo(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 31,
-      "symbol": "LogWarm(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 35,
+      "line": 25,
       "symbol": "LogError(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
-      "line": 39,
+      "line": 26,
+      "symbol": "LogInfo(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 27,
       "symbol": "LogVerbose(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 28,
+      "symbol": "LogWarm(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 30,
+      "symbol": "LogDebug(_:level:context:tag:asynchronous:ddlog:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 44,
+      "symbol": "LogError(_:level:context:tag:asynchronous:ddlog:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 58,
+      "symbol": "LogInfo(_:level:context:tag:asynchronous:ddlog:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 72,
+      "symbol": "LogVerbose(_:level:context:tag:asynchronous:ddlog:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Static/Support.swift",
+      "line": 86,
+      "symbol": "LogWarm(_:level:context:tag:asynchronous:ddlog:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/Foundation/Hook.swift",
+      "line": 12,
+      "symbol": "NSObject.getProps()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
@@ -338,113 +1087,1408 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "IsPad",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "IsIphone",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "IsSimulator",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "DiskSpace",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "DiskFreeSpace",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "DiskUsedSpace",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "MemoryTotal",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "MemoryUsed",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 22,
+      "line": 23,
       "symbol": "ScreenHeight",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "ScreenWidth",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "ScreenScale",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "IOS8OrLater",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 30,
+      "line": 31,
       "symbol": "IOS9OrLater",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 34,
+      "line": 35,
       "symbol": "IOS10OrLater",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 38,
+      "line": 39,
       "symbol": "IOS11OrLater",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
-      "line": 184,
+      "line": 186,
+      "symbol": "UIColor.toHexString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 202,
+      "symbol": "UIColor.init(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 225,
+      "symbol": "UIColor.init(hex:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 245,
+      "symbol": "UIColor.image(rect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 260,
       "symbol": "CGRect.cutApart(proportion:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 295,
+      "symbol": "CGFloat.scaleHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 311,
+      "symbol": "Int.scaleWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 315,
+      "symbol": "Int.scaleHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 322,
+      "symbol": "Double.scaleWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 326,
+      "symbol": "Double.scaleHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 333,
+      "symbol": "Float.scaleWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
+      "line": 337,
+      "symbol": "Float.scaleHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": null,
+      "symbol": "VirtualLayout",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 83,
+      "symbol": "UIView.layout(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 98,
+      "symbol": "VirtualLayout",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 100,
+      "symbol": "VirtualLayout.isIncludedInLayout",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 101,
+      "symbol": "VirtualLayout.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 103,
+      "symbol": "VirtualLayout.direction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 104,
+      "symbol": "VirtualLayout.flexDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 105,
+      "symbol": "VirtualLayout.justifyContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 106,
+      "symbol": "VirtualLayout.alignContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 107,
+      "symbol": "VirtualLayout.alignItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 108,
+      "symbol": "VirtualLayout.alignSelf",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 110,
+      "symbol": "VirtualLayout.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 111,
+      "symbol": "VirtualLayout.flexWrap",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 112,
+      "symbol": "VirtualLayout.overflow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 113,
+      "symbol": "VirtualLayout.display",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 115,
+      "symbol": "VirtualLayout.flexGrow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 116,
+      "symbol": "VirtualLayout.flexShrink",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 117,
+      "symbol": "VirtualLayout.flexBasis",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 119,
+      "symbol": "VirtualLayout.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 120,
+      "symbol": "VirtualLayout.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 121,
+      "symbol": "VirtualLayout.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 122,
+      "symbol": "VirtualLayout.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 123,
+      "symbol": "VirtualLayout.start",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 124,
+      "symbol": "VirtualLayout.end",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 126,
+      "symbol": "VirtualLayout.marginLeft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 127,
+      "symbol": "VirtualLayout.marginTop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 128,
+      "symbol": "VirtualLayout.marginRight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 129,
+      "symbol": "VirtualLayout.marginBottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 130,
+      "symbol": "VirtualLayout.marginStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 131,
+      "symbol": "VirtualLayout.marginEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 132,
+      "symbol": "VirtualLayout.marginHorizontal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 133,
+      "symbol": "VirtualLayout.marginVertical",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 134,
+      "symbol": "VirtualLayout.margin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 136,
+      "symbol": "VirtualLayout.paddingLeft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 137,
+      "symbol": "VirtualLayout.paddingTop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 138,
+      "symbol": "VirtualLayout.paddingRight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 139,
+      "symbol": "VirtualLayout.paddingBottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 140,
+      "symbol": "VirtualLayout.paddingStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 141,
+      "symbol": "VirtualLayout.paddingEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 142,
+      "symbol": "VirtualLayout.paddingHorizontal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 143,
+      "symbol": "VirtualLayout.paddingVertical",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 144,
+      "symbol": "VirtualLayout.padding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 147,
+      "symbol": "VirtualLayout.borderLeftWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 148,
+      "symbol": "VirtualLayout.borderTopWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 149,
+      "symbol": "VirtualLayout.borderRightWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 150,
+      "symbol": "VirtualLayout.borderBottomWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 151,
+      "symbol": "VirtualLayout.borderStartWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 152,
+      "symbol": "VirtualLayout.borderEndWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 153,
+      "symbol": "VirtualLayout.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 155,
+      "symbol": "VirtualLayout.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 156,
+      "symbol": "VirtualLayout.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 157,
+      "symbol": "VirtualLayout.minWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 158,
+      "symbol": "VirtualLayout.minHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 159,
+      "symbol": "VirtualLayout.maxWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 160,
+      "symbol": "VirtualLayout.maxHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 164,
+      "symbol": "VirtualLayout.aspectRatio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 166,
+      "symbol": "VirtualLayout.dirty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 172,
+      "symbol": "VirtualLayout.isIncludedInLayout(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 179,
+      "symbol": "VirtualLayout.isEnable(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 185,
+      "symbol": "VirtualLayout.direction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 191,
+      "symbol": "VirtualLayout.flexDirection(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 197,
+      "symbol": "VirtualLayout.justifyContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 203,
+      "symbol": "VirtualLayout.alignContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 209,
+      "symbol": "VirtualLayout.alignItems(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 215,
+      "symbol": "VirtualLayout.alignSelf(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 221,
+      "symbol": "VirtualLayout.position(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 227,
+      "symbol": "VirtualLayout.flexWrap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 233,
+      "symbol": "VirtualLayout.overflow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 239,
+      "symbol": "VirtualLayout.display(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 245,
+      "symbol": "VirtualLayout.flexGrow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 251,
+      "symbol": "VirtualLayout.flexShrink(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 257,
+      "symbol": "VirtualLayout.flexBasis(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 263,
+      "symbol": "VirtualLayout.left(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 269,
+      "symbol": "VirtualLayout.top(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 275,
+      "symbol": "VirtualLayout.right(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 281,
+      "symbol": "VirtualLayout.bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 287,
+      "symbol": "VirtualLayout.start(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 293,
+      "symbol": "VirtualLayout.end(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 299,
+      "symbol": "VirtualLayout.leftTop(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 306,
+      "symbol": "VirtualLayout.rightTop(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 313,
+      "symbol": "VirtualLayout.leftBottom(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 320,
+      "symbol": "VirtualLayout.rightBottom(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 327,
+      "symbol": "VirtualLayout.topHeight(top:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 334,
+      "symbol": "VirtualLayout.bottomHeight(bottom:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 341,
+      "symbol": "VirtualLayout.leftWidth(left:width:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 348,
+      "symbol": "VirtualLayout.rightWidth(right:width:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 355,
+      "symbol": "VirtualLayout.leftRight(left:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 362,
+      "symbol": "VirtualLayout.topBottom(top:bottom:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 369,
+      "symbol": "VirtualLayout.size(width:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 376,
+      "symbol": "VirtualLayout.marginLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 382,
+      "symbol": "VirtualLayout.marginTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 388,
+      "symbol": "VirtualLayout.marginRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 394,
+      "symbol": "VirtualLayout.marginBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 400,
+      "symbol": "VirtualLayout.marginStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 406,
+      "symbol": "VirtualLayout.marginEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 412,
+      "symbol": "VirtualLayout.marginHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 418,
+      "symbol": "VirtualLayout.marginVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 424,
+      "symbol": "VirtualLayout.margin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 430,
+      "symbol": "VirtualLayout.paddingLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 436,
+      "symbol": "VirtualLayout.paddingTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 442,
+      "symbol": "VirtualLayout.paddingRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 448,
+      "symbol": "VirtualLayout.paddingBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 454,
+      "symbol": "VirtualLayout.paddingStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 460,
+      "symbol": "VirtualLayout.paddingEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 466,
+      "symbol": "VirtualLayout.paddingHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 472,
+      "symbol": "VirtualLayout.paddingVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 478,
+      "symbol": "VirtualLayout.padding(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 484,
+      "symbol": "VirtualLayout.borderLeftWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 490,
+      "symbol": "VirtualLayout.borderTopWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 496,
+      "symbol": "VirtualLayout.borderRightWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 502,
+      "symbol": "VirtualLayout.borderBottomWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 508,
+      "symbol": "VirtualLayout.borderStartWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 514,
+      "symbol": "VirtualLayout.borderEndWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 520,
+      "symbol": "VirtualLayout.borderWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 526,
+      "symbol": "VirtualLayout.width(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 532,
+      "symbol": "VirtualLayout.height(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 538,
+      "symbol": "VirtualLayout.minWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 544,
+      "symbol": "VirtualLayout.minHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 550,
+      "symbol": "VirtualLayout.maxWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 556,
+      "symbol": "VirtualLayout.maxHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 562,
+      "symbol": "VirtualLayout.aspectRatio(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 568,
+      "symbol": "VirtualLayout.markDirty()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 577,
+      "symbol": "YGLayout.isIncludedInLayout(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 583,
+      "symbol": "YGLayout.isEnable(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 589,
+      "symbol": "YGLayout.direction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 595,
+      "symbol": "YGLayout.flexDirection(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 601,
+      "symbol": "YGLayout.justifyContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 607,
+      "symbol": "YGLayout.alignContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 613,
+      "symbol": "YGLayout.alignItems(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 619,
+      "symbol": "YGLayout.alignSelf(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 625,
+      "symbol": "YGLayout.position(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 631,
+      "symbol": "YGLayout.flexWrap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 637,
+      "symbol": "YGLayout.overflow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 643,
+      "symbol": "YGLayout.display(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 649,
+      "symbol": "YGLayout.flexGrow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 655,
+      "symbol": "YGLayout.flexShrink(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 667,
+      "symbol": "YGLayout.left(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 673,
+      "symbol": "YGLayout.top(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 679,
+      "symbol": "YGLayout.right(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 685,
+      "symbol": "YGLayout.bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 691,
+      "symbol": "YGLayout.start(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 697,
+      "symbol": "YGLayout.end(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 703,
+      "symbol": "YGLayout.marginLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 709,
+      "symbol": "YGLayout.marginTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 715,
+      "symbol": "YGLayout.marginRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 721,
+      "symbol": "YGLayout.marginBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 727,
+      "symbol": "YGLayout.marginStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 733,
+      "symbol": "YGLayout.marginEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 739,
+      "symbol": "YGLayout.marginHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 745,
+      "symbol": "YGLayout.marginVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 751,
+      "symbol": "YGLayout.margin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 757,
+      "symbol": "YGLayout.paddingLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 763,
+      "symbol": "YGLayout.paddingTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 769,
+      "symbol": "YGLayout.paddingRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 775,
+      "symbol": "YGLayout.paddingBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 781,
+      "symbol": "YGLayout.paddingStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 787,
+      "symbol": "YGLayout.paddingEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 793,
+      "symbol": "YGLayout.paddingHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 799,
+      "symbol": "YGLayout.paddingVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 805,
+      "symbol": "YGLayout.padding(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 811,
+      "symbol": "YGLayout.borderLeftWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 817,
+      "symbol": "YGLayout.borderTopWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 823,
+      "symbol": "YGLayout.borderRightWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 829,
+      "symbol": "YGLayout.borderBottomWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 835,
+      "symbol": "YGLayout.borderStartWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 841,
+      "symbol": "YGLayout.borderEndWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 847,
+      "symbol": "YGLayout.borderWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 853,
+      "symbol": "YGLayout.width(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 859,
+      "symbol": "YGLayout.height(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 865,
+      "symbol": "YGLayout.minWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 871,
+      "symbol": "YGLayout.minHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 877,
+      "symbol": "YGLayout.maxWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 883,
+      "symbol": "YGLayout.maxHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/YogaExtension.swift",
+      "line": 889,
+      "symbol": "YGLayout.aspectRatio(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }

@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YGLayout Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Extension/YGLayout" class="dashAnchor"></a>
+
+    <a title="YGLayout Extension Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (32% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      YGLayout Extension Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DrawerViewController.html">DrawerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/HomeViewController.html">HomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LoadCardViewController.html">LoadCardViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LoadCardViewController/Layout.html">– Layout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/s:15FastConsumption14LoginViewModelC">LoginViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PThreadMutex.html">PThreadMutex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PThreadMutex/PThreadMutexType.html">– PThreadMutexType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RegisterViewController.html">RegisterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/s:15FastConsumption17RegisterViewModelC">RegisterViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ResetPasswordViewController.html">ResetPasswordViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/s:15FastConsumption22ResetPasswordViewModelC">ResetPasswordViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RetrievePasswordViewController.html">RetrievePasswordViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/s:15FastConsumption25RetrievePasswordViewModelC">RetrievePasswordViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SideViewController.html">SideViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnfairLock.html">UnfairLock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ViewController.html">ViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/VirtualLayout.html">VirtualLayout</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption5ColorAA1RV5colorVmv">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption13DiskFreeSpaces5Int64VSgv">DiskFreeSpace</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption9DiskSpaces5Int64VSgv">DiskSpace</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption13DiskUsedSpaces5Int64VSgv">DiskUsedSpace</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption4FileAA1RV4fileVmv">File</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption4FontAA1RV4fontVmv">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption12IOS10OrLaterSbv">IOS10OrLater</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption12IOS11OrLaterSbv">IOS11OrLater</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11IOS8OrLaterSbv">IOS8OrLater</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11IOS9OrLaterSbv">IOS9OrLater</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption5ImageAA1RV5imageVmv">Image</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption8IsIphoneSbv">IsIphone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption5IsPadSbv">IsPad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11IsSimulatorSbv">IsSimulator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11MemoryTotals6UInt64Vv">MemoryTotal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption10MemoryUseds6UInt64VSgv">MemoryUsed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption3NibAA1RV3nibVmv">Nib</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption16ResuseIdentifierAA1RV05reuseD0Vmv">ResuseIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption12ScreenHeight12CoreGraphics7CGFloatVv">ScreenHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11ScreenScale12CoreGraphics7CGFloatVv">ScreenScale</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption11ScreenWidth12CoreGraphics7CGFloatVv">ScreenWidth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption5SegueAA1RV5segueVmv">Segue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:15FastConsumption10StoryboardAA1RV10storyboardVmv">Storyboard</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LightningAPI.html">LightningAPI</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Float.html">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/YGLayout.html">YGLayout</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption8LogDebugySSF">LogDebug(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption8LogDebugXeXeF">LogDebug(_:level:context:tag:asynchronous:ddlog:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption8LogErrorySSF">LogError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption8LogErrorXeXeF">LogError(_:level:context:tag:asynchronous:ddlog:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption7LogInfoySSF">LogInfo(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption7LogInfoXeXeF">LogInfo(_:level:context:tag:asynchronous:ddlog:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption10LogVerboseySSF">LogVerbose(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption10LogVerboseXeXeF">LogVerbose(_:level:context:tag:asynchronous:ddlog:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption7LogWarmySSF">LogWarm(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption7LogWarmXeXeF">LogWarm(_:level:context:tag:asynchronous:ddlog:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption6cancelyySbcSgF">cancel(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption5delayySbcSgSd_yyc4tasktF">delay(_:task:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption25headerBackgroundImageViewSo07UIImageF0CyF">headerBackgroundImageView()</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption10headerViewSo6UIViewCyF">headerView()</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption21horLabelsSpaceBetweenSo6UIViewCSaySSGF">horLabelsSpaceBetween(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption10horLastEndSo6UIViewCSo7UIImageC4icon_SS4textSb7tipShowSS9endStringtF">horLastEnd(icon:text:tipShow:endString:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption25underLineAttributedStringXeXeF">underLineAttributedString(_:tapRange:action:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption20validateEmailAddressSbSSF">validateEmailAddress(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption16validatePasswordSbSS8passWord_tF">validatePassword(passWord:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption16validatePhonoNumSbSS5phono_tF">validatePhonoNum(phono:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:15FastConsumption17validateValidcodeSbSS9validcode_tF">validateValidcode(validcode:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DrawerSiderHideProtocol.html">DrawerSiderHideProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DrawerSiderShowProtocol.html">DrawerSiderShowProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RawMutex.html">RawMutex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ScopedMutex.html">ScopedMutex</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Flex.html">Flex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html">R</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV5colorV">– color</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R/file.html">– file</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV4fontV">– font</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R/image.html">– image</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV3nibV">– nib</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV15reuseIdentifierV">– reuseIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV5segueV">– segue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R/storyboard.html">– storyboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/R.html#/s:15FastConsumption1RV6stringV">– string</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/_R.html">_R</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/_R.html#/s:15FastConsumption2_RV3nibV">– nib</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/_R/storyboard.html">– storyboard</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>YGLayout</h1>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption18isIncludedInLayoutXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/isIncludedInLayout(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption18isIncludedInLayoutXeXeF">isIncludedInLayout(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isIncludedInLayout</span><span class="p">(</span><span class="n">_</span> <span class="nv">isIncludedInLayout</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8isEnableXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/isEnable(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8isEnableXeXeF">isEnable(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isEnable</span><span class="p">(</span><span class="n">_</span> <span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9directionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/direction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9directionXeXeF">direction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">direction</span><span class="p">(</span><span class="n">_</span> <span class="nv">direction</span><span class="p">:</span> <span class="kt">YGDirection</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption13flexDirectionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/flexDirection(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption13flexDirectionXeXeF">flexDirection(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">flexDirection</span><span class="p">(</span><span class="n">_</span> <span class="nv">flexDirection</span><span class="p">:</span> <span class="kt">YGFlexDirection</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption14justifyContentXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/justifyContent(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption14justifyContentXeXeF">justifyContent(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">justifyContent</span><span class="p">(</span><span class="n">_</span> <span class="nv">justifyContent</span><span class="p">:</span> <span class="kt">YGJustify</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption12alignContentXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/alignContent(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption12alignContentXeXeF">alignContent(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">alignContent</span><span class="p">(</span><span class="n">_</span> <span class="nv">alignContent</span><span class="p">:</span> <span class="kt">YGAlign</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption10alignItemsXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/alignItems(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption10alignItemsXeXeF">alignItems(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">alignItems</span><span class="p">(</span><span class="n">_</span> <span class="nv">alignItems</span><span class="p">:</span> <span class="kt">YGAlign</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9alignSelfXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/alignSelf(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9alignSelfXeXeF">alignSelf(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">alignSelf</span><span class="p">(</span><span class="n">_</span> <span class="nv">alignSelf</span><span class="p">:</span> <span class="kt">YGAlign</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8positionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/position(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8positionXeXeF">position(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">position</span><span class="p">(</span><span class="n">_</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">YGPositionType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8flexWrapXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/flexWrap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8flexWrapXeXeF">flexWrap(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">flexWrap</span><span class="p">(</span><span class="n">_</span> <span class="nv">flexWrap</span><span class="p">:</span> <span class="kt">YGWrap</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8overflowXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/overflow(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8overflowXeXeF">overflow(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">overflow</span><span class="p">(</span><span class="n">_</span> <span class="nv">overflow</span><span class="p">:</span> <span class="kt">YGOverflow</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption7displayXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/display(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption7displayXeXeF">display(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">display</span><span class="p">(</span><span class="n">_</span> <span class="nv">display</span><span class="p">:</span> <span class="kt">YGDisplay</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8flexGrowXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/flexGrow(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8flexGrowXeXeF">flexGrow(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">flexGrow</span><span class="p">(</span><span class="n">_</span> <span class="nv">flexGrow</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption10flexShrinkXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/flexShrink(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption10flexShrinkXeXeF">flexShrink(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">flexShrink</span><span class="p">(</span><span class="n">_</span> <span class="nv">flexShrink</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption4leftXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/left(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption4leftXeXeF">left(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">left</span><span class="p">(</span><span class="n">_</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption3topXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/top(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption3topXeXeF">top(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">top</span><span class="p">(</span><span class="n">_</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption5rightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/right(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption5rightXeXeF">right(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">right</span><span class="p">(</span><span class="n">_</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption6bottomXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/bottom(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption6bottomXeXeF">bottom(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">bottom</span><span class="p">(</span><span class="n">_</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption5startXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/start(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption5startXeXeF">start(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="n">_</span> <span class="nv">start</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption3endXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/end(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption3endXeXeF">end(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">end</span><span class="p">(</span><span class="n">_</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption10marginLeftXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginLeft(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption10marginLeftXeXeF">marginLeft(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginLeft</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginLeft</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9marginTopXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginTop(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9marginTopXeXeF">marginTop(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginTop</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginTop</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption11marginRightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginRight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption11marginRightXeXeF">marginRight(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginRight</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginRight</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption12marginBottomXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginBottom(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption12marginBottomXeXeF">marginBottom(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginBottom</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginBottom</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption11marginStartXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginStart(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption11marginStartXeXeF">marginStart(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginStart</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginStart</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9marginEndXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginEnd(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9marginEndXeXeF">marginEnd(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginEnd</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginEnd</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption16marginHorizontalXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginHorizontal(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption16marginHorizontalXeXeF">marginHorizontal(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginHorizontal</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginHorizontal</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption14marginVerticalXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/marginVertical(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption14marginVerticalXeXeF">marginVertical(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">marginVertical</span><span class="p">(</span><span class="n">_</span> <span class="nv">marginVertical</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption6marginXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/margin(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption6marginXeXeF">margin(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">margin</span><span class="p">(</span><span class="n">_</span> <span class="nv">margin</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption11paddingLeftXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingLeft(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption11paddingLeftXeXeF">paddingLeft(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingLeft</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingLeft</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption10paddingTopXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingTop(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption10paddingTopXeXeF">paddingTop(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingTop</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingTop</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption12paddingRightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingRight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption12paddingRightXeXeF">paddingRight(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingRight</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingRight</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption13paddingBottomXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingBottom(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption13paddingBottomXeXeF">paddingBottom(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingBottom</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingBottom</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption12paddingStartXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingStart(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption12paddingStartXeXeF">paddingStart(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingStart</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingStart</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption10paddingEndXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingEnd(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption10paddingEndXeXeF">paddingEnd(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingEnd</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingEnd</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption17paddingHorizontalXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingHorizontal(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption17paddingHorizontalXeXeF">paddingHorizontal(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingHorizontal</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingHorizontal</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption15paddingVerticalXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/paddingVertical(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption15paddingVerticalXeXeF">paddingVertical(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">paddingVertical</span><span class="p">(</span><span class="n">_</span> <span class="nv">paddingVertical</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption7paddingXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/padding(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption7paddingXeXeF">padding(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">padding</span><span class="p">(</span><span class="n">_</span> <span class="nv">padding</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption15borderLeftWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderLeftWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption15borderLeftWidthXeXeF">borderLeftWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderLeftWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderLeftWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption14borderTopWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderTopWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption14borderTopWidthXeXeF">borderTopWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderTopWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderTopWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption16borderRightWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderRightWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption16borderRightWidthXeXeF">borderRightWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderRightWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderRightWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption17borderBottomWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderBottomWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption17borderBottomWidthXeXeF">borderBottomWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderBottomWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderBottomWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption16borderStartWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderStartWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption16borderStartWidthXeXeF">borderStartWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderStartWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderStartWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption14borderEndWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderEndWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption14borderEndWidthXeXeF">borderEndWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderEndWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderEndWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption11borderWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/borderWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption11borderWidthXeXeF">borderWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">borderWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">borderWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption5widthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/width(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption5widthXeXeF">width(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">width</span><span class="p">(</span><span class="n">_</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption6heightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/height(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption6heightXeXeF">height(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">height</span><span class="p">(</span><span class="n">_</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8minWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/minWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8minWidthXeXeF">minWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">minWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">minWidth</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9minHeightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/minHeight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9minHeightXeXeF">minHeight(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">minHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">minHeight</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption8maxWidthXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/maxWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption8maxWidthXeXeF">maxWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">maxWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">maxWidth</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption9maxHeightXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/maxHeight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption9maxHeightXeXeF">maxHeight(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">maxHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">maxHeight</span><span class="p">:</span> <span class="kt">YGValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15FastConsumption11aspectRatioXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/aspectRatio(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15FastConsumption11aspectRatioXeXeF">aspectRatio(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">aspectRatio</span><span class="p">(</span><span class="n">_</span> <span class="nv">aspectRatio</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">YGLayout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://github.com/D8Ge" target="_blank" rel="external">yeyongping</a>. All rights reserved. (Last updated: 2017-12-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

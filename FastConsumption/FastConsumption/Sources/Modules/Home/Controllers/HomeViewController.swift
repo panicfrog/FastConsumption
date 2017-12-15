@@ -270,6 +270,7 @@ func headerBackgroundImageView() -> UIImageView {
     return headerImageView
 }
 
+/// 头部显示借款金额的视图
 func headerView() -> UIView {
     // contentView
     let contentView = UIView()
@@ -311,6 +312,7 @@ func headerView() -> UIView {
     return contentView
 }
 
+/// |icon - 文字 - 按钮 ... -文字|
 func horLastEnd(icon: UIImage, text: String, tipShow: Bool, endString: String) -> UIView {
     
     //1.3.1
@@ -349,9 +351,9 @@ func horLastEnd(icon: UIImage, text: String, tipShow: Bool, endString: String) -
     quotaContentView.addSubview(numberLabel)
     
     return quotaContentView;
-    
 }
 
+/// 等分的文字 |文字-文字-文字-文字|
 func horLabelsSpaceBetween(_ labels:[String]) -> UIView {
     
     let quotaValueContentView = UIView()

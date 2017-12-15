@@ -409,7 +409,7 @@
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Utils/UI/UIExtensions.swift",
       "line": 24,
-      "symbol": "SCreenScale",
+      "symbol": "ScreenScale",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
