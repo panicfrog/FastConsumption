@@ -309,6 +309,83 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 17,
+      "symbol": "HorStartEndLabelViewType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 18,
+      "symbol": "HorStartEndLabelViewType.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 19,
+      "symbol": "HorStartEndLabelViewType.orange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 20,
+      "symbol": "HorStartEndLabelViewType.startColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 29,
+      "symbol": "HorStartEndLabelViewType.endColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 39,
+      "symbol": "StatusTipsViewStyle",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 40,
+      "symbol": "StatusTipsViewStyle.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 41,
+      "symbol": "StatusTipsViewStyle.overdue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 42,
+      "symbol": "StatusTipsViewStyle.backgroundImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 107,
+      "symbol": "messageShowCellView(title:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 129,
+      "symbol": "statusTipsView(text:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
       "line": null,
       "symbol": "DrawerViewController",
@@ -445,27 +522,6 @@
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
       "line": 264,
       "symbol": "headerBackgroundImageView()",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 273,
-      "symbol": "headerView()",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 314,
-      "symbol": "horLastEnd(icon:text:tipShow:endString:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 355,
-      "symbol": "horLabelsSpaceBetween(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
