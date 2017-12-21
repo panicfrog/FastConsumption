@@ -30,6 +30,7 @@
 		8F320C541FDFDA8D003B557C /* LoginingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F320C471FDFDA8D003B557C /* LoginingStoryboard.storyboard */; };
 		8F320C581FDFDBC2003B557C /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F320C571FDFDBC2003B557C /* Layout.swift */; };
 		8F4E16071FEB4F4F00F22F03 /* DrawerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E16061FEB4F4F00F22F03 /* DrawerViewModel.swift */; };
+		8F58B2EE1FEB83E800F03CD2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F58B2ED1FEB83E800F03CD2 /* RealmManager.swift */; };
 		8FB2B4341FD4DE9E00A290AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2B4331FD4DE9E00A290AF /* AppDelegate.swift */; };
 		8FB2B43B1FD4DE9E00A290AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2B43A1FD4DE9E00A290AF /* Assets.xcassets */; };
 		8FB2B43E1FD4DE9E00A290AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2B43C1FD4DE9E00A290AF /* LaunchScreen.storyboard */; };
@@ -92,6 +93,7 @@
 		8F320C471FDFDA8D003B557C /* LoginingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginingStoryboard.storyboard; sourceTree = "<group>"; };
 		8F320C571FDFDBC2003B557C /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		8F4E16061FEB4F4F00F22F03 /* DrawerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewModel.swift; sourceTree = "<group>"; };
+		8F58B2ED1FEB83E800F03CD2 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		8FB2B4301FD4DE9E00A290AF /* FastConsumption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastConsumption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB2B4331FD4DE9E00A290AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB2B43A1FD4DE9E00A290AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -420,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				8FD2FC471FD91EB700442E80 /* ProjectUtils.swift */,
+				8F58B2ED1FEB83E800F03CD2 /* RealmManager.swift */,
 				8F320C571FDFDBC2003B557C /* Layout.swift */,
 			);
 			path = ProjectUtils;
@@ -806,6 +809,7 @@
 				8F320C4E1FDFDA8D003B557C /* RetrievePasswordViewModel.swift in Sources */,
 				8F1DDA3E1FE118BD00797965 /* HomeViewController.swift in Sources */,
 				8F308BC01FE36AEC00DAA625 /* commonView.swift in Sources */,
+				8F58B2EE1FEB83E800F03CD2 /* RealmManager.swift in Sources */,
 				8F320C4A1FDFDA8D003B557C /* ViewController.swift in Sources */,
 				8F320C511FDFDA8D003B557C /* ResetPasswordViewController.swift in Sources */,
 				8F320C531FDFDA8D003B557C /* RegisterViewController.swift in Sources */,

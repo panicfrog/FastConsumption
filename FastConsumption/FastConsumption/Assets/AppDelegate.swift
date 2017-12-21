@@ -86,6 +86,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DDLog.add(fileLogger)
     }
     
+    // Root ViewController
     func pointOutRootViewController(){
         let count = AppSession.getUserAccount()
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -108,5 +109,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         }
     }
+    
 }
 
