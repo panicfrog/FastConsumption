@@ -9,6 +9,8 @@
 import UIKit
 import IQKeyboardManagerSwift
 import CocoaLumberjack
+import KeychainAccess
+import RxSwift
 
 #if DEBUG
     import FLEX
@@ -19,6 +21,7 @@ import CocoaLumberjack
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    public var isLogin: Variable<Bool>?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
@@ -28,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configLogger()
         /// 配置全局键盘
         configIqKeyboardSupport()
+        
+        /// 判断是否登录
+        pointOutRootViewController()
         
         return true
     }
@@ -78,6 +84,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         fileLogger.rollingFrequency = TimeInterval(60*60*24)
         fileLogger.logFileManager.maximumNumberOfLogFiles = 7
         DDLog.add(fileLogger)
+    }
+    
+    func pointOutRootViewController(){
+        let count = AppSession.getUserAccount()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if count == nil {
+            isLogin = Variable(false)
+        }
+        else {
+            isLogin = Variable(true)
+        }
+        if let isLogin = isLogin {
+           _ = isLogin.asDriver().drive(onNext: {[unowned self] login in
+                if !login {
+                    self.window?.rootViewController = Storyboard.loginingStoryboard().instantiateInitialViewController()
+                    self.window?.makeKeyAndVisible()
+                }
+                else {
+                    self.window?.rootViewController = DrawerViewController(side: SideViewController(), bottom: Variable(nil))
+                    self.window?.makeKeyAndVisible()
+                }
+            })
+        }
     }
 }
 

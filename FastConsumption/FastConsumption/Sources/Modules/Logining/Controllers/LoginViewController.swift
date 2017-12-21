@@ -28,28 +28,50 @@ class LoginViewController: UIViewController, StoryboardSceneBased{
     /// 去注册按钮
     @IBOutlet weak var goRegisterButton: UIButton!
     
+    var viewModel: LoginViewModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
     func setupUI()  {
-        commitButton.rx.tap
-            .subscribe(onNext: {[unowned self] in
-                self.dismiss(animated: true, completion: nil)
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+        viewModel = LoginViewModel(phone: phoneTextfield.rx.text.orEmpty.asDriver(), password: passwordTextfield.rx.text.orEmpty.asDriver())
+        
+        viewModel.phoneValid
+            .drive(onNext: { [unowned self] valid in
+               self.phoneTextfield.textColor = valid ? .orange : .black
             })
         .disposed(by: bag)
         
+        viewModel.passwordValid
+            .drive(onNext: { [unowned self] valid in
+                self.passwordTextfield.textColor = valid ? .orange : .black
+            })
+        .disposed(by: bag)
         
+        viewModel.commitButtonEnabled
+            .drive(onNext: { [unowned self] valid in
+                self.commitButton.isEnabled = valid
+            })
+        .disposed(by: bag)
+        
+        viewModel.forgetPasswordButtonEnabled.drive(onNext: { [unowned self] enable in
+            self.forgetPasswordButton.isEnabled = enable
+        })
+        .disposed(by: bag)
+        
+        viewModel.goRegisterButtonEnabled.drive(onNext: { [unowned self] enable in
+            self.goRegisterButton.isEnabled = enable
+        })
+        .disposed(by: bag)
+        
+        commitButton.rx.tap.subscribe(onNext: {[unowned self] in
+            self.viewModel.login(phone: self.phoneTextfield.text!, password: self.passwordTextfield.text!)
+        })
+        .disposed(by: bag)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

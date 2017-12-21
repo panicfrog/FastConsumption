@@ -11,12 +11,15 @@ import Moya
 
 enum LightningAPI {
     case sample
+    case login(phone: String, password: String)
+    case register(phone: String, password: String, validCode: String)
 }
 
 extension LightningAPI: TargetType {
     
     var base: String {
-        return "https://www.sample.com/"
+//        return "https://www.sample.com/"
+        return "http://192.168.5.252:8090"
     }
     var baseURL: URL {
         return URL(string: base)!
@@ -26,6 +29,10 @@ extension LightningAPI: TargetType {
         switch self {
         case .sample:
             return "/api/sample"
+        case .login:
+            return "/login/login"
+        case .register:
+            return "/login/userRegister"
         }
     }
     
@@ -33,12 +40,16 @@ extension LightningAPI: TargetType {
         switch self {
         case .sample:
             return .get
+        case .login:
+            return .post
+        case .register:
+            return .post
         }
     }
     
     var sampleData: Data {
         switch self {
-        case .sample:
+        case .sample, .login, .register:
             return stubbedResponse(filename: "sample")
         }
     }
@@ -48,6 +59,17 @@ extension LightningAPI: TargetType {
         case .sample:
             return [
                 "token": "this is a token"
+            ]
+        case .login(let phone, let password):
+            return [
+                "password": password,
+                "phone": phone
+            ]
+        case .register(let phone,let password,let validCode):
+            return [
+                "phone": phone,
+                "password": password,
+                "vCode": validCode
             ]
         }
     }

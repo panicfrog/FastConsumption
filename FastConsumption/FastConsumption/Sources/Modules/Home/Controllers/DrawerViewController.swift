@@ -8,15 +8,20 @@
 
 import UIKit
 import DeviceKit
+import RxCocoa
+import RxSwift
 
 public class DrawerViewController: UIViewController {
     
     let side: UIViewController
-    var bottom: UIViewController?
+    var bottom: Variable<UIViewController?>
+    let viewModel: DrawerViewModel
+    let bag = DisposeBag()
     
-    public init(side: UIViewController, bottom: UIViewController?) {
+    public init(side: UIViewController, bottom: Variable<UIViewController?>) {
         self.side = side
         self.bottom = bottom
+        self.viewModel = DrawerViewModel(bottom: bottom)
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -30,23 +35,20 @@ public class DrawerViewController: UIViewController {
         view.backgroundColor = .green
         configBottomViewController()
         configSideViewController()
-        
+        setupUI()
         delay(1) { self.showSide() }
-//        delay(10) { self.hideSide() }
-        
-//        let yellowViewController = UIViewController()
-//        yellowViewController.view.backgroundColor = .yellow
-//        delay(12) { self.setBottomViewController(bottomViewController: yellowViewController) }
-//
-//        let blueViewController = UIViewController()
-//        blueViewController.view.backgroundColor = .blue
-//        delay(15) { self.setBottomViewController(bottomViewController: blueViewController) }
-//
-//        delay(18) { self.showSide() }
-//        delay(20) { self.hideSide() }
-        
+        delay(10) { self.hideSide() }
     }
     
+    func setupUI() {
+        let placehoderImageView = UIImageView(frame: view.bounds)
+        placehoderImageView.image = Image.placehoder()
+        view.insertSubview(placehoderImageView, at: 0)
+        
+        viewModel.placehoderHide.drive(onNext: { hide in
+            placehoderImageView.isHidden = hide
+        }).disposed(by: bag)
+    }
     
     func configSideViewController() {
         addChildViewController(side)
@@ -56,14 +58,14 @@ public class DrawerViewController: UIViewController {
     }
     
     func configBottomViewController() {
-        guard let bottomViewController = bottom else { return }
+        guard let bottomViewController = bottom.value else { return }
         addChildViewController(bottomViewController)
         view.addSubview(bottomViewController.view)
         bottomViewController.didMove(toParentViewController: self)
     }
     
     public func setBottomViewController(bottomViewController: UIViewController) {
-        if let bottomVC = bottom {
+        if let bottomVC = bottom.value {
             addChildViewController(bottomViewController)
             view.insertSubview(bottomViewController.view, at: 0)
             bottomViewController.didMove(toParentViewController: self)
@@ -77,7 +79,7 @@ public class DrawerViewController: UIViewController {
             view.insertSubview(bottomViewController.view, at: 0)
             bottomViewController.didMove(toParentViewController: self)
         }
-        bottom = bottomViewController
+        bottom.value = bottomViewController
     }
 }
 

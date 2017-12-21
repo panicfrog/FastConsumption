@@ -8,12 +8,17 @@
 
 import UIKit
 import YogaKit
+import RxSwift
+import RxCocoa
 
 fileprivate let numberTextColor = UIColor(hex: "#3E3A39")
 fileprivate let buttonSelecedBgColor = UIColor(hex: "#0389FF")
 
 class SideViewController: UIViewController {
-     var siderHideDelegate: DrawerSiderHideProtocol?
+    var siderHideDelegate: DrawerSiderHideProtocol?
+    var viewModel: SideViewModel!
+    let bag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -53,16 +58,20 @@ class SideViewController: UIViewController {
         sideView.addSubview(myLoanButton)
         
         // 我的银行卡
-        sideView.addSubview(configButton(title: "我的银行卡", selectedImage: Image.sidebar_bankcard_pressed_icom()!, nomalImage: Image.sidebar_bankcard_icom()!))
+       let myCardsButton = configButton(title: "我的银行卡", selectedImage: Image.sidebar_bankcard_pressed_icom()!, nomalImage: Image.sidebar_bankcard_icom()!)
+        sideView.addSubview(myCardsButton)
         
         // 我的认证
-        sideView.addSubview(configButton(title: "我的认证   ", selectedImage: Image.sidebar_certification_pressed_icom()!, nomalImage: Image.sidebar_certification_icom()!))
+        let myValidButton = configButton(title: "我的认证   ", selectedImage: Image.sidebar_certification_pressed_icom()!, nomalImage: Image.sidebar_certification_icom()!)
+        sideView.addSubview(myValidButton)
 
         // 常见问题
-        sideView.addSubview(configButton(title: "常见问题   ", selectedImage: Image.sidebar_question_pressed_icom()!, nomalImage: Image.sidebar_question_icom()!))
+        let commonProblemButton = configButton(title: "常见问题   ", selectedImage: Image.sidebar_question_pressed_icom()!, nomalImage: Image.sidebar_question_icom()!)
+        sideView.addSubview(commonProblemButton)
         
         // 退出账号
-        sideView.addSubview(configButton(title: "退出账号   ", selectedImage: Image.sidebar_txitaccount_pressed_icom()!, nomalImage: Image.sidebar_txitaccount_icom()!))
+        let exitAccountButton = configButton(title: "退出账号   ", selectedImage: Image.sidebar_txitaccount_pressed_icom()!, nomalImage: Image.sidebar_txitaccount_icom()!)
+        sideView.addSubview(exitAccountButton)
         
         // 客户电话
         let telTipLabel = UILabel()
@@ -80,6 +89,61 @@ class SideViewController: UIViewController {
         sideView.addSubview(telNumberLabel)
         
         view.yoga.applyLayout(preservingOrigin: true)
+        
+        /// driver
+        viewModel = SideViewModel()
+        viewModel.myLoanSelected
+            .drive(onNext: { selected in
+                myLoanButton.isSelected = selected
+            })
+        .disposed(by: bag)
+        
+        viewModel.myCardsSelected
+            .drive(onNext: { selected in
+                myCardsButton.isSelected = selected
+            })
+        .disposed(by: bag)
+        
+        viewModel.myValidateSelected
+            .drive(onNext: { selected in
+              myValidButton.isSelected = selected
+            })
+        .disposed(by: bag)
+        
+        viewModel.myCommonProblemSelected
+            .drive(onNext: { selected in
+                commonProblemButton.isSelected = selected
+            })
+            .disposed(by: bag)
+        
+        viewModel.exitAccountSelected
+            .drive(onNext: { selected in
+                exitAccountButton.isSelected = selected
+            })
+            .disposed(by: bag)
+        
+        /// click
+        myLoanButton.rx.tap.subscribe(onNext: {[unowned self] in
+           self.viewModel.sideSelected.value = .myLoan
+        }).disposed(by: bag)
+        
+        myCardsButton.rx.tap.subscribe(onNext: {[unowned self] in
+            self.viewModel.sideSelected.value = .myCards
+        }).disposed(by: bag)
+        
+        myValidButton.rx.tap.subscribe(onNext: {[unowned self] in
+            self.viewModel.sideSelected.value = .myValidate
+        }).disposed(by: bag)
+        
+        commonProblemButton.rx.tap.subscribe(onNext: {[unowned self] in
+            self.viewModel.sideSelected.value = .commonProblem
+        }).disposed(by: bag)
+        
+        exitAccountButton.rx.tap.subscribe(onNext: {[unowned self] in
+            self.viewModel.sideSelected.value = .exitAccount
+            AppSession.removeAccount()
+        }).disposed(by: bag)
+        
     }
     
     func configButton(title: String, selectedImage: UIImage, nomalImage: UIImage) -> UIButton {

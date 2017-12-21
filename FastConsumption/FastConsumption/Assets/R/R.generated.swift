@@ -40,7 +40,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 48 images.
+  /// This `R.image` struct is generated, and contains static references to 49 images.
   struct image {
     /// Image `arrow_black`.
     static let arrow_black = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow_black")
@@ -108,6 +108,8 @@ struct R: Rswift.Validatable {
     static let password_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "password_icon")
     /// Image `phone_icon`.
     static let phone_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "phone_icon")
+    /// Image `placehoder`.
+    static let placehoder = Rswift.ImageResource(bundle: R.hostingBundle, name: "placehoder")
     /// Image `selected_icon`.
     static let selected_icon = Rswift.ImageResource(bundle: R.hostingBundle, name: "selected_icon")
     /// Image `sidebar_bankcard__pressed_icom`.
@@ -304,6 +306,11 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.phone_icon, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "placehoder", bundle: ..., traitCollection: ...)`
+    static func placehoder(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.placehoder, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "selected_icon", bundle: ..., traitCollection: ...)`
     static func selected_icon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.selected_icon, compatibleWith: traitCollection)
@@ -465,7 +472,9 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct loginingStoryboard: Rswift.StoryboardResourceType, Rswift.Validatable {
+    struct loginingStoryboard: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = UIKit.UINavigationController
+      
       let bundle = R.hostingBundle
       let loginViewController = StoryboardViewControllerResource<LoginViewController>(identifier: "LoginViewController")
       let name = "LoginingStoryboard"
