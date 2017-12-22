@@ -43,7 +43,6 @@ class RegisterViewController: UIViewController, StoryboardSceneBased {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        
     }
     
     func setupUI() {
@@ -56,6 +55,10 @@ class RegisterViewController: UIViewController, StoryboardSceneBased {
             self.viewModel.checkButtonSelected.value = !self.viewModel.checkButtonSelected.value
             })
         .disposed(by: bag)
+        
+        goLoginButton.rx.controlEvent(.touchUpInside).subscribe(onNext: { [unowned self] in
+            self.navigationController?.popViewController(animated: true)
+        }).disposed(by: bag)
         
         let checkAgreement = Variable(checkAgreementButton.isSelected).asDriver();
         
@@ -81,13 +84,13 @@ class RegisterViewController: UIViewController, StoryboardSceneBased {
             self.passwordTextfield.isEnabled = valid
         }).disposed(by: bag)
         
-        viewModel.commitButtonEnabled.drive(onNext: {[unowned self] enable in
-            self.commitButton.isEnabled = enable
-        }).disposed(by: bag)
+        viewModel.commitButtonEnabled.asObservable()
+            .bind(to: commitButton.rx.isEnabled)
+            .disposed(by: bag)
         
-        viewModel.checkButtonSelected.asDriver().drive(onNext: { [unowned self] slected in
-            self.checkAgreementButton.isSelected = slected
-        }).disposed(by: bag)
+        viewModel.checkButtonSelected.asObservable()
+            .bind(to: checkAgreementButton.rx.isSelected)
+            .disposed(by: bag)
         
     }
     /*

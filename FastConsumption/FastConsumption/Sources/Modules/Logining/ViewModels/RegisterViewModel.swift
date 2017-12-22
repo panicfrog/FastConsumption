@@ -35,10 +35,14 @@ class RegisterViewModel {
             validateValidcode(validcode: $0)
         }.asDriver()
         
-        commitButtonEnabled = Driver.combineLatest(phoneValid, passwordValid, validCodeValid, checkButtonSelected.asDriver()) {
+        commitButtonEnabled = Driver.combineLatest(
+            phoneValid,
+            passwordValid,
+            validCodeValid,
+            checkButtonSelected.asDriver()
+        ) {
             $0 && $1 && $2 && $3
         }.asDriver()
-        
-        
+
     }
 }
