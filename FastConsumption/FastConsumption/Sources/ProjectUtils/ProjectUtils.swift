@@ -41,7 +41,7 @@ func validatePassword(passWord: String) -> Bool {
 /// 验证验证码输入
 func validateValidcode(validcode: String) -> Bool {
     let validcodeRegex = "^[0-9]{4}$"
-    let validcodePredicate = NSPredicate(format: "SELF MATCHS %@", validcodeRegex)
+    let validcodePredicate = NSPredicate(format: "SELF MATCHES %@", validcodeRegex)
     return validcodePredicate.evaluate(with: validcode)
 }
 

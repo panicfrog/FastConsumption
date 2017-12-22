@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         print(ScreenWidth)
         print(ScreenHeight)
         
+        
         MoyaProvider<LightningAPI>().request(.login(phone: "15180462523", password: "123456")) { result in
             switch result {
             case let .success(moyaResponse):

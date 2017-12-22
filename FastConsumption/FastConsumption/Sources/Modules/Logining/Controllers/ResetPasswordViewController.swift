@@ -11,10 +11,14 @@ import Reusable
 import RxSwift
 import RxCocoa
 
+
+fileprivate let blue = UIColor(hex: "#198cfb")
 class ResetPasswordViewController: UIViewController, StoryboardSceneBased {
     static let sceneStoryboard = Storyboard.loginingStoryboard()
-    
     let bag = DisposeBag()
+    
+    var viewModel: ResetPasswordViewModel!
+    var phoneText: String? = nil
     
     @IBOutlet weak var newPasswordTextField: UITextField!
     @IBOutlet weak var nextStepButton: UIButton!
@@ -24,12 +28,13 @@ class ResetPasswordViewController: UIViewController, StoryboardSceneBased {
         setupUI()
     }
 
-    func setupUI()  {
-        nextStepButton.rx.tap
-            .subscribe(onNext: {[unowned self] in
-                self.dismiss(animated: true, completion: nil)
-            })
-        .disposed(by: bag)
+    func setupUI() {
+        viewModel = ResetPasswordViewModel(password: newPasswordTextField.rx.text.orEmpty.asDriver())
+        
+        viewModel.passwordValid.drive(onNext: { [unowned self] valid in
+            self.nextStepButton.isEnabled = valid
+            self.nextStepButton.backgroundColor = valid ? blue : .lightGray
+        }).disposed(by: bag)
     }
     
     /*

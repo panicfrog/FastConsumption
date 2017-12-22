@@ -33,6 +33,7 @@ class LoginViewController: UIViewController, StoryboardSceneBased{
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        Image.arrow_black()
     }
     func setupUI()  {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

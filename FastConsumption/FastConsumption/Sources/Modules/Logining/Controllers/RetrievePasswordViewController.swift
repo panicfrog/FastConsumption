@@ -11,10 +11,12 @@ import Reusable
 import RxSwift
 import RxCocoa
 
+fileprivate let blue = UIColor(hex: "#198cfb")
+
 class RetrievePasswordViewController: UIViewController, StoryboardSceneBased {
     static let sceneStoryboard = Storyboard.loginingStoryboard()
-    
     let bag = DisposeBag()
+    var viewModel: RetrievePasswordViewModel!
     
     @IBOutlet weak var phoneTextfield: UITextField!
     @IBOutlet weak var validCodeTextfield: UITextField!
@@ -29,23 +31,29 @@ class RetrievePasswordViewController: UIViewController, StoryboardSceneBased {
     }
     
     func setupUI()  {
-        nextStepButton.rx.tap
-            .subscribe(onNext: {
-                [unowned self] in
-                self.dismiss(animated: true, completion: nil)
+        viewModel = RetrievePasswordViewModel(phone: phoneTextfield.rx.text.orEmpty.asDriver(), validCode: validCodeTextfield.rx.text.orEmpty.asDriver())
+
+        viewModel.phoneValided.drive(onNext: { [unowned self] valid in
+            self.phoneTextfield.textColor = valid ? .orange : .black
+            self.getValidCodeButton.isEnabled = valid
+            self.validCodeTextfield.isEnabled = valid
+        })
+        .disposed(by: bag)
+
+        viewModel.validCodeValided.drive(onNext: { [unowned self] valid in
+            self.validCodeTextfield.textColor = valid ? .orange : .black
+            self.nextStepButton.isEnabled = valid
+            self.nextStepButton.backgroundColor = valid ?  blue : .lightGray
         })
         .disposed(by: bag)
         
+        
     }
 
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let info = Segue.retrievePasswordViewController.retrieveToResetPassword(segue: segue)
+       info?.destination.phoneText = info?.source.phoneTextfield.text
     }
-    */
 
 }

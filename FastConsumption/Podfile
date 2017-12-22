@@ -22,7 +22,7 @@ target 'FastConsumption' do
   pod 'PromiseKit', '~> 4.5.0'
   pod 'PromiseKit/CoreLocation'
   pod 'PromiseKit/Alamofire'
-  pod 'Realm', '~> 3.0.2'
+  pod 'RealmSwift', '~> 3.0.2'
   pod 'ReSwift', '~> 4.0.0'
   pod 'Reusable', '~> 4.0.0'
   pod 'RxCocoa', '~> 4.0.0'

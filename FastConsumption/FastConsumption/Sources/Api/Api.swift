@@ -13,6 +13,7 @@ enum LightningAPI {
     case sample
     case login(phone: String, password: String)
     case register(phone: String, password: String, validCode: String)
+    case setPassword(phone: String, password: String)
 }
 
 extension LightningAPI: TargetType {
@@ -33,6 +34,8 @@ extension LightningAPI: TargetType {
             return "/login/login"
         case .register:
             return "/login/userRegister"
+        case .setPassword:
+            return "/login/setUserPassword"
         }
     }
     
@@ -40,16 +43,14 @@ extension LightningAPI: TargetType {
         switch self {
         case .sample:
             return .get
-        case .login:
-            return .post
-        case .register:
+        case .login, .register, .setPassword:
             return .post
         }
     }
     
     var sampleData: Data {
         switch self {
-        case .sample, .login, .register:
+        case .sample, .login, .register, .setPassword:
             return stubbedResponse(filename: "sample")
         }
     }
@@ -70,6 +71,11 @@ extension LightningAPI: TargetType {
                 "phone": phone,
                 "password": password,
                 "vCode": validCode
+            ]
+        case .setPassword(let phone,let password):
+            return [
+                "phone": phone,
+                "password": password
             ]
         }
     }

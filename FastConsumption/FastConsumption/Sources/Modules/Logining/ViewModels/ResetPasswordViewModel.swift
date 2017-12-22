@@ -7,7 +7,15 @@
 //
 
 import Foundation
+import RxCocoa
+import Rswift
 
 class ResetPasswordViewModel {
+    let passwordValid: Driver<Bool>
     
+    init(password: Driver<String>) {
+        passwordValid = password.map {
+            validatePassword(passWord: $0)
+        }.asDriver()
+    }
 }

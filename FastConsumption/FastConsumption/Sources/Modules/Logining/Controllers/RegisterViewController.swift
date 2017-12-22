@@ -6,6 +6,8 @@
 //  Copyright © 2017年 Macx. All rights reserved.
 //
 
+///Note : 注意保持UI的纯净性 不要在UI中直接操作与数据相关的内容
+
 import UIKit
 import Reusable
 import YYText
@@ -16,6 +18,8 @@ class RegisterViewController: UIViewController, StoryboardSceneBased {
     static let sceneStoryboard = Storyboard.loginingStoryboard()
 
     let bag = DisposeBag()
+    
+    var viewModel: RegisterViewModel!
     
     /// 协议标签
     @IBOutlet weak var agreementLabel: YYLabel!
@@ -48,13 +52,44 @@ class RegisterViewController: UIViewController, StoryboardSceneBased {
         }
         agreementLabel.attributedText = agreementText
         
-        commitButton.rx.tap
-            .subscribe(onNext: {[unowned self] in
-                self.dismiss(animated: true, completion: nil)
+        checkAgreementButton.rx.tap.subscribe(onNext: { [unowned self] in
+            self.viewModel.checkButtonSelected.value = !self.viewModel.checkButtonSelected.value
             })
         .disposed(by: bag)
+        
+        let checkAgreement = Variable(checkAgreementButton.isSelected).asDriver();
+        
+        viewModel = RegisterViewModel(
+            phone: phoneTextField.rx.text.orEmpty.asDriver(),
+            password: passwordTextfield.rx.text.orEmpty.asDriver(),
+            validCode: validCodeTextfield.rx.text.orEmpty.asDriver(),
+            checkAgreement: checkAgreement
+        )
+        
+        viewModel.phoneValid.drive(onNext: {[unowned self] valid in
+            self.phoneTextField.textColor = valid ? .orange : .black
+            self.validCodeTextfield.isEnabled = valid
+            self.validButton.isEnabled = valid
+        }).disposed(by: bag)
+        
+        viewModel.passwordValid.drive(onNext: {[unowned self] valid in
+            self.passwordTextfield.textColor = valid ? .orange : .black
+        }).disposed(by: bag)
+    
+        viewModel.validCodeValid.drive(onNext: {[unowned self] valid in
+            self.validCodeTextfield.textColor = valid ? .orange : .black
+            self.passwordTextfield.isEnabled = valid
+        }).disposed(by: bag)
+        
+        viewModel.commitButtonEnabled.drive(onNext: {[unowned self] enable in
+            self.commitButton.isEnabled = enable
+        }).disposed(by: bag)
+        
+        viewModel.checkButtonSelected.asDriver().drive(onNext: { [unowned self] slected in
+            self.checkAgreementButton.isSelected = slected
+        }).disposed(by: bag)
+        
     }
-
     /*
     // MARK: - Navigation
 

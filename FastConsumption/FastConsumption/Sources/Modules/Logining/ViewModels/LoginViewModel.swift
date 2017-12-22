@@ -10,6 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import Moya
+import Realm
 
 public protocol BaseResultModelProtocol {
     var code: Int {get set}
@@ -75,6 +76,8 @@ class LoginViewModel {
                     }
                     if model.code == 1000 {
                         AppSession.setUserAccount(model.data.userId, compeleted: nil)
+                        
+                        
                     }
                     else {
                         //TODO: 登录失败
