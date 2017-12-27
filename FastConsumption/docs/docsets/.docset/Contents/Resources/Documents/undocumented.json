@@ -2,57 +2,71 @@
   "warnings": [
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "AppDelegate",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "AppDelegate.window",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 23,
+      "line": 24,
+      "symbol": "AppDelegate.isLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 26,
       "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 35,
+      "line": 41,
       "symbol": "AppDelegate.applicationWillResignActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 40,
+      "line": 46,
       "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 45,
+      "line": 51,
       "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 49,
+      "line": 55,
       "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
-      "line": 53,
+      "line": 59,
       "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/AppDelegate.swift",
+      "line": 90,
+      "symbol": "AppDelegate.pointOutRootViewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -65,161 +79,161 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 445,
+      "line": 467,
       "symbol": "_R",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 446,
+      "line": 468,
       "symbol": "_R.validate()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 450,
+      "line": 472,
       "symbol": "_R.nib",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 454,
+      "line": 476,
       "symbol": "_R.storyboard",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 455,
+      "line": 477,
       "symbol": "_R.storyboard.validate()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 459,
+      "line": 481,
       "symbol": "_R.storyboard.launchScreen",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 462,
+      "line": 484,
       "symbol": "_R.storyboard.launchScreen.bundle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 463,
+      "line": 485,
       "symbol": "_R.storyboard.launchScreen.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 468,
+      "line": 490,
       "symbol": "_R.storyboard.loginingStoryboard",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 469,
+      "line": 493,
       "symbol": "_R.storyboard.loginingStoryboard.bundle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 470,
+      "line": 494,
       "symbol": "_R.storyboard.loginingStoryboard.loginViewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 471,
+      "line": 495,
       "symbol": "_R.storyboard.loginingStoryboard.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 472,
+      "line": 496,
       "symbol": "_R.storyboard.loginingStoryboard.registerViewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 473,
+      "line": 497,
       "symbol": "_R.storyboard.loginingStoryboard.resetPasswordViewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 474,
+      "line": 498,
       "symbol": "_R.storyboard.loginingStoryboard.retrievePasswordViewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 476,
+      "line": 500,
       "symbol": "_R.storyboard.loginingStoryboard.loginViewController(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 480,
+      "line": 504,
       "symbol": "_R.storyboard.loginingStoryboard.registerViewController(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 484,
+      "line": 508,
       "symbol": "_R.storyboard.loginingStoryboard.resetPasswordViewController(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 488,
+      "line": 512,
       "symbol": "_R.storyboard.loginingStoryboard.retrievePasswordViewController(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 492,
+      "line": 516,
       "symbol": "_R.storyboard.loginingStoryboard.validate()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 509,
+      "line": 533,
       "symbol": "_R.storyboard.main",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 512,
+      "line": 536,
       "symbol": "_R.storyboard.main.bundle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Assets/R/R.generated.swift",
-      "line": 513,
+      "line": 537,
       "symbol": "_R.storyboard.main.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -247,65 +261,191 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 18,
+      "line": 14,
+      "symbol": "LightningAPI.login",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 15,
+      "symbol": "LightningAPI.register",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 16,
+      "symbol": "LightningAPI.setPassword",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
+      "line": 21,
       "symbol": "LightningAPI.base",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 21,
+      "line": 25,
       "symbol": "LightningAPI.baseURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 25,
+      "line": 29,
       "symbol": "LightningAPI.path",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 32,
+      "line": 42,
       "symbol": "LightningAPI.method",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 39,
+      "line": 51,
       "symbol": "LightningAPI.sampleData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 46,
+      "line": 58,
       "symbol": "LightningAPI.parameters",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 55,
+      "line": 83,
       "symbol": "LightningAPI.task",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 71,
+      "line": 99,
       "symbol": "LightningAPI.headers",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Api/Api.swift",
-      "line": 76,
+      "line": 104,
       "symbol": "LightningAPI.stubbedResponse(filename:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Helper/AppHelper.swift",
+      "line": 12,
+      "symbol": "AppSession",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Helper/AppHelper.swift",
+      "line": 13,
+      "symbol": "AppSession.getUserAccount()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Helper/AppHelper.swift",
+      "line": 19,
+      "symbol": "AppSession.setUserAccount(_:compeleted:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Helper/AppHelper.swift",
+      "line": 35,
+      "symbol": "AppSession.removeAccount()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 17,
+      "symbol": "HorStartEndLabelViewType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 18,
+      "symbol": "HorStartEndLabelViewType.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 19,
+      "symbol": "HorStartEndLabelViewType.orange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 20,
+      "symbol": "HorStartEndLabelViewType.startColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 29,
+      "symbol": "HorStartEndLabelViewType.endColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 39,
+      "symbol": "StatusTipsViewStyle",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 40,
+      "symbol": "StatusTipsViewStyle.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 41,
+      "symbol": "StatusTipsViewStyle.overdue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 42,
+      "symbol": "StatusTipsViewStyle.backgroundImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 107,
+      "symbol": "messageShowCellView(title:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Common/Views/commonView.swift",
+      "line": 129,
+      "symbol": "statusTipsView(text:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
@@ -317,105 +457,126 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 12,
+      "line": 14,
       "symbol": "DrawerViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 14,
+      "line": 16,
       "symbol": "DrawerViewController.side",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "DrawerViewController.bottom",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 17,
+      "line": 18,
+      "symbol": "DrawerViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 19,
+      "symbol": "DrawerViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 21,
       "symbol": "DrawerViewController.init(side:bottom:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 23,
+      "line": 28,
       "symbol": "DrawerViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 27,
+      "line": 32,
       "symbol": "DrawerViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 51,
+      "line": 43,
+      "symbol": "DrawerViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
+      "line": 53,
       "symbol": "DrawerViewController.configSideViewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 58,
+      "line": 60,
       "symbol": "DrawerViewController.configBottomViewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 65,
+      "line": 67,
       "symbol": "DrawerViewController.setBottomViewController(bottomViewController:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 84,
+      "line": 86,
       "symbol": "DrawerSiderShowProtocol",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 85,
+      "line": 87,
       "symbol": "DrawerSiderShowProtocol.showSide()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 87,
+      "line": 89,
       "symbol": "DrawerSiderHideProtocol",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 88,
+      "line": 90,
       "symbol": "DrawerSiderHideProtocol.hideSide()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 92,
+      "line": 94,
       "symbol": "DrawerViewController.hideSide()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/DrawerViewController.swift",
-      "line": 98,
+      "line": 100,
       "symbol": "DrawerViewController.showSide()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -445,27 +606,6 @@
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
       "line": 264,
       "symbol": "headerBackgroundImageView()",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 273,
-      "symbol": "headerView()",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 314,
-      "symbol": "horLastEnd(icon:text:tipShow:endString:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/HomeViewController.swift",
-      "line": 355,
-      "symbol": "horLabelsSpaceBetween(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
@@ -569,57 +709,183 @@
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "SideViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "SideViewController.siderHideDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
-      "line": 17,
+      "line": 19,
+      "symbol": "SideViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 20,
+      "symbol": "SideViewController.bag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
+      "line": 22,
       "symbol": "SideViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
-      "line": 22,
+      "line": 27,
       "symbol": "SideViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/SideViewController.swift",
-      "line": 85,
+      "line": 149,
       "symbol": "SideViewController.configButton(title:selectedImage:nomalImage:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "ViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "ViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/Controllers/ViewController.swift",
-      "line": 23,
+      "line": 38,
       "symbol": "ViewController.push(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/DrawerViewModel.swift",
+      "line": 13,
+      "symbol": "DrawerViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/DrawerViewModel.swift",
+      "line": 14,
+      "symbol": "DrawerViewModel.placehoderHide",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/DrawerViewModel.swift",
+      "line": 16,
+      "symbol": "DrawerViewModel.init(bottom:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 13,
+      "symbol": "SideSelected",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 14,
+      "symbol": "SideSelected.myLoan",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 15,
+      "symbol": "SideSelected.myCards",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 16,
+      "symbol": "SideSelected.myValidate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 17,
+      "symbol": "SideSelected.commonProblem",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 18,
+      "symbol": "SideSelected.exitAccount",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 21,
+      "symbol": "SideViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 22,
+      "symbol": "SideViewModel.sideSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 26,
+      "symbol": "SideViewModel.myCardsSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 27,
+      "symbol": "SideViewModel.myValidateSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 28,
+      "symbol": "SideViewModel.myCommonProblemSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 29,
+      "symbol": "SideViewModel.exitAccountSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Home/ViewModels/SideViewModel.swift",
+      "line": 31,
+      "symbol": "SideViewModel.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -647,118 +913,146 @@
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
       "line": 31,
+      "symbol": "LoginViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
+      "line": 33,
       "symbol": "LoginViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/LoginViewController.swift",
-      "line": 35,
+      "line": 38,
       "symbol": "LoginViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "RegisterViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "RegisterViewController.sceneStoryboard",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "RegisterViewController.bag",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
-      "line": 39,
+      "line": 22,
+      "symbol": "RegisterViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
+      "line": 43,
       "symbol": "RegisterViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RegisterViewController.swift",
-      "line": 45,
+      "line": 48,
       "symbol": "RegisterViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 14,
+      "line": 16,
       "symbol": "ResetPasswordViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "ResetPasswordViewController.sceneStoryboard",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "ResetPasswordViewController.bag",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 19,
+      "line": 20,
+      "symbol": "ResetPasswordViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 21,
+      "symbol": "ResetPasswordViewController.phoneText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
+      "line": 23,
       "symbol": "ResetPasswordViewController.newPasswordTextField",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 20,
+      "line": 24,
       "symbol": "ResetPasswordViewController.nextStepButton",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 22,
+      "line": 26,
       "symbol": "ResetPasswordViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/ResetPasswordViewController.swift",
-      "line": 27,
+      "line": 31,
       "symbol": "ResetPasswordViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 14,
+      "line": 16,
       "symbol": "RetrievePasswordViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "RetrievePasswordViewController.sceneStoryboard",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "RetrievePasswordViewController.bag",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -766,71 +1060,295 @@
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
       "line": 19,
+      "symbol": "RetrievePasswordViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 21,
       "symbol": "RetrievePasswordViewController.phoneTextfield",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "RetrievePasswordViewController.validCodeTextfield",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "RetrievePasswordViewController.nextStepButton",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 23,
+      "line": 25,
       "symbol": "RetrievePasswordViewController.getValidCodeButton",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 25,
+      "line": 27,
       "symbol": "RetrievePasswordViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
-      "line": 31,
+      "line": 33,
       "symbol": "RetrievePasswordViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/Controllers/RetrievePasswordViewController.swift",
+      "line": 54,
+      "symbol": "RetrievePasswordViewController.prepare(for:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
-      "line": 11,
+      "line": 15,
+      "symbol": "BaseResultModelProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 16,
+      "symbol": "BaseResultModelProtocol.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 17,
+      "symbol": "BaseResultModelProtocol.msg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 20,
+      "symbol": "loginModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 21,
+      "symbol": "loginModel.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 22,
+      "symbol": "loginModel.msg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 23,
+      "symbol": "loginModel.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 24,
+      "symbol": "loginModel._Data",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 25,
+      "symbol": "loginModel._Data.password",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 26,
+      "symbol": "loginModel._Data.phone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 27,
+      "symbol": "loginModel._Data.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 31,
       "symbol": "LoginViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 35,
+      "symbol": "LoginViewModel.passwordValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 36,
+      "symbol": "LoginViewModel.commitButtonEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 37,
+      "symbol": "LoginViewModel.loding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 38,
+      "symbol": "LoginViewModel.tip",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 39,
+      "symbol": "LoginViewModel.forgetPasswordButtonEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 40,
+      "symbol": "LoginViewModel.goRegisterButtonEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 42,
+      "symbol": "LoginViewModel.init(phone:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/LoginViewModel.swift",
+      "line": 64,
+      "symbol": "LoginViewModel.login(phone:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
-      "line": 11,
+      "line": 13,
       "symbol": "RegisterViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 14,
+      "symbol": "RegisterViewModel.checkButtonSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 16,
+      "symbol": "RegisterViewModel.phoneValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 17,
+      "symbol": "RegisterViewModel.validCodeValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 18,
+      "symbol": "RegisterViewModel.passwordValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 19,
+      "symbol": "RegisterViewModel.commitButtonEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RegisterViewModel.swift",
+      "line": 21,
+      "symbol": "RegisterViewModel.init(phone:password:validCode:checkAgreement:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/ResetPasswordViewModel.swift",
-      "line": 11,
+      "line": 13,
       "symbol": "ResetPasswordViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/ResetPasswordViewModel.swift",
+      "line": 14,
+      "symbol": "ResetPasswordViewModel.passwordValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/ResetPasswordViewModel.swift",
+      "line": 16,
+      "symbol": "ResetPasswordViewModel.init(password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RetrievePasswordViewModel.swift",
-      "line": 11,
+      "line": 13,
       "symbol": "RetrievePasswordViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RetrievePasswordViewModel.swift",
+      "line": 14,
+      "symbol": "RetrievePasswordViewModel.phoneValided",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RetrievePasswordViewModel.swift",
+      "line": 15,
+      "symbol": "RetrievePasswordViewModel.validCodeValided",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macx/Source/iPhoneProjects/FastConsumption/FastConsumption/FastConsumption/Sources/Modules/Logining/ViewModels/RetrievePasswordViewModel.swift",
+      "line": 17,
+      "symbol": "RetrievePasswordViewModel.init(phone:validCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
